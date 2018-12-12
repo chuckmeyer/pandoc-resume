@@ -14,7 +14,7 @@ and testing for both infrastructure and application components.
 SKILLS
 ------
 
-* Design resilient **AWS** cloud architectures for **EC2**-based and **Lambda**-based applications
+* Designing resilient **AWS** cloud architectures for **EC2**-based and **Lambda**-based applications
 * CI/CD and automation for infrastructure deployments using **Jenkins**, **Github**, **Travis CI**, etc.
 * Development in **Python** for application backends and tools
 * Some experience developing in **Node.js** and **Ruby**
