@@ -1,100 +1,120 @@
-Johnny Coder
-============
+-------------------     ----------------------------
+**CHUCK MEYER**                      GitHub: cmmeyer
+190 E Cooke Rd.                 chuckmeyer@gmail.com
+Columbus, OH 43214                      347-419-0836
+-------------------     ----------------------------
 
-----
+SUMMARY
+-------
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
+My focus is ensuring the security and stability of cloud-based 
+applications through the use of rigorous deployment automation 
+and testing for both infrastructure and application components.
 
-----
+SKILLS
+------
 
-Education
----------
+* Design resilient **AWS** cloud architectures for **EC2**-based and **Lambda**-based applications
+* CI/CD and automation for infrastructure deployments using **Jenkins**, **Github**, **Travis CI**, etc.
+* Development in **Python** for application backends and tools
+* Some experience developing in **Node.js** and **Ruby**
+* Security and compliance validation against CIS, PCI, HIPAA, etc. using automated testing and cloud controls like **cfn_nag**
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
-
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
-
-Experience
+EMPLOYMENT
 ----------
 
-**Your Most Recent Work Experience:**
+**Sr. Developer Advocate, AWS CloudFormation,**  
+Amazon Web Services, August 2017 to present.
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+I report to the AWS CloudFormation service director and serve as a liason between the service team and the developer community. My objectives are to guide customers in following best practices, serving as a rallying point for the community, and voicing customer concerns back to the service team.
 
-* First item
+* I represent the developer community in service team planning sessions.
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+* I maintain CloudFormation's open source repositories:
+  * [github.com/awslabs/cfn-python-lint](https://github.com/awslabs/cfn-python-lint/pulse)
+  * [github.com/awslabs/aws-cloudformation-templates](https://github.com/awslabs/aws-cloudformation-templates/pulse)
 
-**That Other Job You Had**
+* I design and publish best practices and customer solutions for AWS' management tools blog:
+  * ["Signaling AWS CloudFormation WaitConditions using AWS PrivateLink"](https://aws.amazon.com/blogs/mt/signaling-aws-cloudformation-waitconditions-using-aws-privatelink/)
+  * ["Building an AWS CloudFormation custom resource to manage StackSets"](https://aws.amazon.com/blogs/mt/building-an-aws-cloudformation-custom-resource-to-manage-stacksets/)
 
-Also with a short description.
+* I speak at meetups and conferences about infrastructure code best practices:
+  * ["Deployment Scenarios with AWS CloudFormation"](https://www.youtube.com/watch?v=X31kA1ANBVw)
+  * ["Deep Dive on AWS CloudFormation"](https://www.youtube.com/watch?v=KXUsyApAI3Y)
 
-Technical Experience
---------------------
+* I meet with customers and dive into ways to improve their infrastructure automation strategies.
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+**Security Solution Architect,**  
+Amazon Web Services, April 2016 to August 2017.
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+I spoke with CISOs and security practitioners across North America on how they can improve
+their IT security posture by building applications using AWS cloud services.
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+-   I reviewed customer cloud network topologies to suggest the proper
+    use of account isolation, VPCs, subnets, NACLs, security groups, and
+    partner software for connectivity to on premise networks.
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+-   I created AWS security labs around encryption, IAM, and
+    infrastructure as code used at conferences, summits, and loft
+    events.
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+-   I assisted customers with adapting their security models to rely less
+    network perimeter controls and more on cloud-native solutions to provide
+    better horizontal isolation and scaling for hybrid environments.
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+-   I helped customers understand actual risks and appropriate controls to
+    encrypt their data at rest and in transit within the public cloud.
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+**Senior Professional Services Consultant**,  
+Amazon Web Services, New York, NY, July 2013 to April 2016.
 
-[ref]: https://github.com/githubuser/superlongprojectname
+I helped large enterprises migrate critical workloads to Amazon\'s
+public cloud and integrate Amazon\'s web services with their existing 
+on-premises systems. My primary goal was to champion repeatable, secure 
+deployment of infrastructure and applications through CI/CD and
+configuration management along with the application of DevOps best practices 
+at enterprise scale.
 
-Extra Section, Call it Whatever You Want
-----------------------------------------
+-   I designed and built a pipeline to harden RHEL7 Amazon Machine
+    Images to help my customer achieve PCI compliance using Packer, 
+    Puppet, and CloudFormation wrapped in custom Python code.
 
-* Human Languages:
+-   I sprinted with a customer's cloud team to construct a CI/CD
+    pipeline for deploying AWS IAM Roles and Policies to meet delegation
+    of duties requirements. The pipeline used CodeCommit, CodePipeline,
+    Ansible, and CloudFormation. 
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+**Web Security Manager,**  
+Federal Reserve/HP, Herndon, VA, January 2013 to July 2013.
 
-* Random tidbit
+I managed a technical team focused on web application/web service access
+control. The team consisted of SMEs for access management (SiteMinder), 
+PKI, LDAP and User Provisioning (Sun Identity Manager). We assisted our hosted 
+applications in meeting their security requirements, responded to audit findings, 
+and oversaw day-to-day operations. Specific management tasks included hiring, 
+employee reviews, and workload redistribution.
 
-* Other sort of impressive-sounding thing you did
+**SiteMinder/DataPower Subject Matter Expert (Consultant),**  
+Federal Reserve/HP, Herndon, VA, Feb. 2006 to January 2013.
 
-----
+I served as Subject Matter Expert to provide guidance and support for
+the access management layer of a Government E-commerce Infrastructure.
 
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+**Senior Support Engineer**, **Premier Services,**
+CA, Framingham, MA, Nov. 2004 to Feb. 2006.
+
+**Senior Support Engineer**,
+Netegrity, Waltham, MA, May 2002 to November 2004.
+
+**Professional Services Consultant**,
+Netegrity, Waltham, MA, December 2000 to May 2002.
+
+**Web Analyst**,
+E.W. Scripps Co., Cincinnati, OH, May 1999 to November 2000.
+
+EDUCATION:
+----------
+
+BS: Mathematics and Computer Science (Cum Laude),  
+BA: Literature and Writing (Cum Laude),  
+Northern Kentucky University, KY. August 1997.
