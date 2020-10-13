@@ -7,13 +7,12 @@ Columbus, OH 43214                      347-419-0836
 SUMMARY
 -------
 
-I'm interested in a role building out a Developer Advocate practice for a
-technology the world needs to know more about. I have advocated around API-based
-development, security, DevOps, and cloud technologies. I am an engineering
-generalist with a keen interest in solving problems and communicating those
-solutions to others. I have designed, coded, deployed, blogged, presented and
-managed for engineering teams across just about every vertical -- from FinTech
-to Gaming to Government.
+I'm interested in a role building a Developer Relations practice. I am an
+engineering generalist who has dabbled in API-based development, security,
+DevOps, and cloud technologies. I have a keen interest in solving problems and
+communicating those solutions to others. I have designed, coded, deployed,
+blogged, presented and managed for engineering teams across just about every
+vertical -- from FinTech to gaming to government.
 
 I am a builder who is fascinated with other builders. When I am excited about a
 technology or company, that excitement shows through in everything I do.
@@ -38,66 +37,64 @@ EMPLOYMENT
 Bold Penguin, March 2019 to present.
 
 I report to the CTO and work with our partners to accelerate their integrations
-with our products. This coud be anything from a single developer linking their
-Salesforce to our commercial insurance exchange or a large enterprise team
-connecting multiple bespoke backend systems to our quoting and binding platform.
+with our products. This ranges from a single developer linking their
+Salesforce to our commercial insurance exchange to large enterprise teams
+connecting multiple bespoke backend systems to our quote and bind platform.
 
-- I talk to partners via meetings, email, and slack to answer questions and hear
+- I work directly with partners via meetings, email, and slack to answer questions and capture
   feedback.
 - I work with our product teams advocating for partner enhancements.
 - I improve our product documentation based on partner feedback.
 - I write and provide coding examples and best practices.
 - I built a [Developers Portal](https://developers.boldpenguin.com)
-  consolidating all of these tools to reduce the amount of interaction
-  required for on-boarding and increase brand awareness within the InsureTech
-  space.
+  consolidating all of these tools to streamline partner on-boarding and
+  increase brand awareness within the InsureTech space.
 
 **Senior Developer Advocate, AWS CloudFormation,**  
 Amazon Web Services, August 2017 to March 2019.
 
 I reported to the AWS CloudFormation service director and served as a liason
-between the service team and the developer community. My objectives were to
-guide customers in following best practices, serving as a rallying point for the
-community, and voicing customer concerns back to the service team.
+between the service team and the developer community. I guided customers in
+following best practices, served as a rallying point for the community, and
+voiced customer concerns back to the service team.
 
 - I represented the developer community in service team planning sessions.
 - I maintained AWS CloudFormation's open source repositories.
-- I designed and published best practices and customer solutions for AWS' management tools blog:
-- I spoke at meetups and conferences about infrastructure code best practices:
-- I met with customers and dive into ways to improve their infrastructure automation strategies.
+- I designed and published best practices and customer solutions for AWS' management tools blog.
+- I spoke at meetups and conferences about infrastructure as code best practices.
+- I met with customers to suggest improvements their infrastructure automation strategies.
 
 **Security Solution Architect,**  
 Amazon Web Services, April 2016 to August 2017.
 
-I spoke with CISOs and security practitioners across North America on how they can improve
-their IT security posture by building applications using AWS cloud services.
+I spoke with CISOs and security practitioners across North America on how to
+improve their IT security posture by building applications using AWS cloud
+services.
 
--  I reviewed customer cloud network topologies.
--  I created AWS security labs for use at conferences, summits, and loft
+- I reviewed customer cloud network topologies.
+- I created AWS security labs for conferences, summits, and loft
     events.
--  I coached customers on moving their security models away from network
-   perimeter controls towardcloud-native solutions for better horizontal
-   isolation and scaling for hybrid environments.
--  I helped customers understand actual risks and appropriate controls to secure
+- I coached customers on moving away from network perimeter controls toward
+   cloud-native solutions
+- I helped customers understand actual risks and appropriate controls to secure
    their data at rest and in transit.
 
 **Senior Professional Services Consultant**,  
 Amazon Web Services, New York, NY, July 2013 to April 2016.
 
 I helped large enterprises migrate critical workloads to AWS and integrate
-Amazon\'s web services with their existing on-premises systems. My primary goal
-was to champion repeatable, secure deployment of infrastructure and applications
-through CI/CD and configuration management along with the application of DevOps
-best practices at enterprise scale.
+Amazon\'s web services with their existing on-premises systems. I championed
+repeatable, secure deployment of infrastructure and applications through CI/CD
+and configuration management along with the application of DevOps best
+practices.
 
--   I designed and built a pipeline to harden RHEL7 Amazon Machine
-    Images to help my customer achieve PCI compliance using Packer,
-    Puppet, and CloudFormation wrapped in custom Python code.
--   I sprinted with a customer's cloud team to construct a CI/CD
-    pipeline for deploying AWS IAM Roles and Policies to meet delegation
-    of duties requirements. The pipeline used CodeCommit, CodePipeline,
-    Ansible, and CloudFormation.
-
+- I built a pipeline for hardening RHEL7 Amazon Machine
+  Images to help my customer achieve PCI compliance (Packer,
+  Puppet, and CloudFormation wrapped in custom Python code)
+- Cnstructed a CI/CD pipeline for deploying AWS IAM Roles and Policies to meet
+  delegation of duties requirements (CodeCommit, CodePipeline, Ansible, and
+  CloudFormation)
+  
 **Web Security Manager,**  
 Federal Reserve/HP, Herndon, VA, January 2013 to July 2013.
 
@@ -120,6 +117,9 @@ E.W. Scripps Co., Cincinnati, OH, May 1999 to November 2000.
 EDUCATION
 ---------
 
-BS: Mathematics and Computer Science (Cum Laude),  
-BA: Literature and Writing (Cum Laude),  
+BS: Mathematics and Computer Science, BA: Literature and Writing (Cum Laude),  
 Northern Kentucky University, KY. August 1997.
+
+--------------------------------------------------------------------------------
+
+*[Generated from Markdown:](https://github.com/chuckmeyer/pandoc_resume) https://github.com/chuckmeyer/pandoc_resume*
