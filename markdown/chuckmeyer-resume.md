@@ -15,12 +15,13 @@ blogged, presented and managed for engineering teams across just about every
 vertical -- from FinTech to gaming to government.
 
 I am a builder who is fascinated with other builders. When I am excited about a
-technology or company, that excitement shows through in everything I do.
+technology or  
+ company, that excitement shows through in everything I do.
 
 ACCOMPLISHMENTS
 ---------------
 
-- Established a [Developers Portal](https://developers.boldpeguin.com) for Bold Penguin's dev community
+- Established a [Developers Portal](https://developers.boldpeguin.com) for Bold Penguin's developer community
 - Maintained a social media presence and monitored relevant hashtags for AWS
   CloudFormation (@chuckm and @awscloudformer)
 - Co-created the open source [cfn-lint](https://github.com/aws-cloudformation/cfn-python-lint) CloudFormation linter
@@ -41,8 +42,8 @@ with our products. This ranges from a single developer linking their
 Salesforce to our commercial insurance exchange to large enterprise teams
 connecting multiple bespoke backend systems to our quote and bind platform.
 
-- I work directly with partners via meetings, email, and slack to answer questions and capture
-  feedback.
+- I interact with our partners via meetings, email, and slack to answer
+  questions and gather product feedback.
 - I work with our product teams advocating for partner enhancements.
 - I improve our product documentation based on partner feedback.
 - I write and provide coding examples and best practices.
