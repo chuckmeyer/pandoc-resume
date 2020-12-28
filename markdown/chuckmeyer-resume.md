@@ -7,16 +7,15 @@ Columbus, OH 43214                      347-419-0836
 SUMMARY
 -------
 
-I'm interested in a role building a Developer Relations practice. I am an
-engineering generalist who has dabbled in API-based development, security,
-DevOps, and cloud technologies. I have a keen interest in solving problems and
-communicating those solutions to others. I have designed, coded, deployed,
-blogged, presented and managed for engineering teams across just about every
-vertical -- from FinTech to gaming to government.
+I am an engineering generalist who has dabbled in API-based development,
+security, DevOps, and cloud technologies. I have a keen interest in solving
+problems and communicating those solutions to others. I have designed, coded,
+deployed, blogged, presented and managed for engineering teams across just about
+every vertical -- from FinTech to gaming to government.
 
 I am a builder who is fascinated with other builders. When I am excited about a
 technology or  
- company, that excitement shows through in everything I do.
+company, that excitement shows through in everything I do.
 
 ACCOMPLISHMENTS
 ---------------

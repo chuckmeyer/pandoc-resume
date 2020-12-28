@@ -1,3 +1,8 @@
 *.log
 *.swo
 *.swp
+*.rtf
+*.tex
+*.tuc
+.vscode
+.DS_Store
