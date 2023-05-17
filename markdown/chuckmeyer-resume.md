@@ -9,17 +9,16 @@ SUMMARY
 
 I am an engineering generalist who has dabbled in API-based development, security, DevOps, and cloud technologies. I have a keen interest in solving problems and communicating those solutions to others. I have designed, coded, deployed, blogged, presented and managed for engineering teams from FinTech to SaaS to government. 
 
-I am a builder who is fascinated with other builders. When I am excited about a technology, that excitement shows through in everything I do. 
+I am a builder who enjoys working with other builders. When I am excited about a technology, that excitement shows through in everything I do. 
 
 PROJECTS
 ---------------
 
-- [A/V Search](https://avsearch.vercel.app/) demo of video transcription search using Algolia
+- [A/V Search](https://github.com/algolia-samples/avsearch) demo of video transcript search using Algolia 
+- Technical articles for the [AWS](https://aws.amazon.com/search/?searchQuery=Chuck%20Meyer#facet_type=blogs) and [Algolia](https://www.algolia.com/search/?query=chuck+meyer&tab=blog&website%5Bquery%5D=chuck+meyer) blogs
 - Co-created the open source [cfn-lint](https://github.com/aws-cloudformation/cfn-python-lint) CloudFormation linter
 - Established a [Developers Portal](https://developers.boldpeguin.com) for Bold Penguin's developer community
-- Engaged with developers on social media and forums
-- Wrote techicnical articles for the [AWS](https://aws.amazon.com/search/?searchQuery=Chuck%20Meyer#facet_type=blogs) and [Algolia](https://www.algolia.com/search/?query=chuck+meyer&tab=blog&website%5Bquery%5D=chuck+meyer) blogs
-- Presented at Meetups and conferences, including AWS re:Invent
+- Meetups and conferences, including AWS re:Invent
   - [Deep Dive on AWS CloudFormation](https://www.youtube.com/watch?v=KXUsyApAI3Y)
   - [Earn Your DevOps Black Belt](https://www.youtube.com/watch?v=X31kA1ANBVw)
 
@@ -31,9 +30,9 @@ Algolia, August 2021 to present.
 
 I engage the Algolia developer community to provide support and awareness of our search and discovery platform. I've been doing mostly frontend development in React, but also some Python as well.
 
+- I build demo applications like this [COVID-19 Geographic Map](https://www.algolia.com/blog/engineering/building-a-covid-19-geosearch-index-using-csv-files-mongodb-or-graphql/) and this [Video Transciption Search](https://github.com/algolia-samples/avsearch) and publish blogs explaining them
 - I host our quarterly [Developer Conferences](https://algolia.com/devcon)
 - I host [Live Coding Sessions](https://www.youtube.com/watch?v=7Pnq57h4-u0&list=PLuHdbqhRgWHIgHHAXhiwn5UiTVieAvzw3) with our partners
-- I build demo applications like this [COVID-19 Geographic Map](https://www.algolia.com/blog/engineering/building-a-covid-19-geosearch-index-using-csv-files-mongodb-or-graphql/) and this [Video Transciption Search](https://github.com/algolia-samples/avsearch)
 
 **Senior Engineer, Developer Relations and Integrations,**  
 Bold Penguin, March 2019 to August 2021.
@@ -57,11 +56,10 @@ between the service team and the developer community. I guided customers in
 following best practices, served as a rallying point for the community, and
 voiced customer concerns back to the service team.
 
-- I represented the developer community in service team planning sessions.
-- I maintained AWS CloudFormation's open source repositories.
-- I designed and published best practices and customer solutions for AWS' management tools blog.
-- I spoke at meetups and conferences about infrastructure as code best practices.
-- I met with customers to suggest improvements their infrastructure automation strategies.
+- Represented the developer community in service team planning sessions
+- Maintained AWS CloudFormation's open source repositories.
+- Designed and published best practices and solutions for AWS' management tools blog
+- Engaged with customers at meetups and conferences about infrastructure as code best practices
 
 **Security Solution Architect,**  
 Amazon Web Services, April 2016 to August 2017.
@@ -70,35 +68,22 @@ I spoke with CISOs and security practitioners across North America on how to
 improve their IT security posture by building applications using AWS cloud
 services.
 
-- I reviewed customer cloud network topologies.
-- I created AWS security labs for conferences, summits, and loft
-    events.
-- I coached customers on moving away from network perimeter controls toward
-   cloud-native solutions
-- I helped customers understand actual risks and appropriate controls to secure
-   their data at rest and in transit.
+- Reviewed customer cloud network topologies
+- Created AWS security labs for bootcamps, summits, and loft events.
+- I helped customers move away from network perimeter controls toward cloud-native solutions
+- I helped customers understand risks and appropriate controls to secure their data at rest and in transit
 
 **Senior Professional Services Consultant**,  
 Amazon Web Services, New York, NY, July 2013 to April 2016.
 
-I helped large enterprises migrate critical workloads to AWS and integrate
-Amazon\'s web services with their existing on-premises systems. I championed
-repeatable, secure deployment of infrastructure and applications through CI/CD
-and configuration management along with the application of DevOps best
-practices.
+I helped large enterprises migrate to AWS and integrate Amazon\'s web services with their existing on-premises systems. I championed repeatable, secure deployment of infrastructure and applications through CI/CD and configuration management.
 
-- I built a pipeline for hardening RHEL7 Amazon Machine
-  Images to help my customer achieve PCI compliance (Packer,
-  Puppet, and CloudFormation wrapped in custom Python code)
-- Cnstructed a CI/CD pipeline for deploying AWS IAM Roles and Policies to meet
-  delegation of duties requirements (CodeCommit, CodePipeline, Ansible, and
-  CloudFormation)
+- Built a pipeline for hardening RHEL7 Amazon Machine
+  Images for PCI compliance in Elastic Beanstalk (Packer, Puppet, and CloudFormation with custom Python code)
+- Cnstructed a CI/CD pipeline for deploying AWS IAM Roles and Policies for delegation of duties requirements (CodeCommit, CodePipeline, Ansible, and CloudFormation)
   
 **Web Security Manager,**  
 Federal Reserve/HP, Herndon, VA, January 2013 to July 2013.
-
-I managed a technical team focused on web application/web service access
-control. 
 
 **SiteMinder/DataPower Subject Matter Expert (Consultant),**  
 Federal Reserve/HP, Herndon, VA, Feb. 2006 to January 2013.
