@@ -7,48 +7,47 @@ Columbus, OH 43214                      347-419-0836
 SUMMARY
 -------
 
-I am an engineering generalist who has dabbled in API-based development,
-security, DevOps, and cloud technologies. I have a keen interest in solving
-problems and communicating those solutions to others. I have designed, coded,
-deployed, blogged, presented and managed for engineering teams across just about
-every vertical -- from FinTech to gaming to government.
+I am an engineering generalist who has dabbled in API-based development, security, DevOps, and cloud technologies. I have a keen interest in solving problems and communicating those solutions to others. I have designed, coded, deployed, blogged, presented and managed for engineering teams from FinTech to SaaS to government. 
 
-I am a builder who is fascinated with other builders. When I am excited about a
-technology or  
-company, that excitement shows through in everything I do.
+I am a builder who is fascinated with other builders. When I am excited about a technology, that excitement shows through in everything I do. 
 
-ACCOMPLISHMENTS
+PROJECTS
 ---------------
 
-- Established a [Developers Portal](https://developers.boldpeguin.com) for Bold Penguin's developer community
-- Maintained a social media presence and monitored relevant hashtags for AWS
-  CloudFormation (@chuckm and @awscloudformer)
+- [A/V Search](https://avsearch.vercel.app/) demo of video transcription search using Algolia
 - Co-created the open source [cfn-lint](https://github.com/aws-cloudformation/cfn-python-lint) CloudFormation linter
-- Published articles for the [AWS Blog](https://aws.amazon.com/search/?searchQuery=Chuck%20Meyer#facet_type=blogs)
+- Established a [Developers Portal](https://developers.boldpeguin.com) for Bold Penguin's developer community
+- Engaged with developers on social media and forums
+- Wrote techicnical articles for the [AWS](https://aws.amazon.com/search/?searchQuery=Chuck%20Meyer#facet_type=blogs) and [Algolia](https://www.algolia.com/search/?query=chuck+meyer&tab=blog&website%5Bquery%5D=chuck+meyer) blogs
 - Presented at Meetups and conferences, including AWS re:Invent
   - [Deep Dive on AWS CloudFormation](https://www.youtube.com/watch?v=KXUsyApAI3Y)
   - [Earn Your DevOps Black Belt](https://www.youtube.com/watch?v=X31kA1ANBVw)
-- Managed teams ranging from three to twelve engineers
 
 EMPLOYMENT
 ----------
 
-**Senior Engineer, Developer Relations and Integrations,**  
-Bold Penguin, March 2019 to present.
+**Senior Developer Advocate,**
+Algolia, August 2021 to present.
 
-I report to the CTO and work with our partners to accelerate their integrations
-with our products. This ranges from a single developer linking their
+I engage the Algolia developer community to provide support and awareness of our search and discovery platform. I've been doing mostly frontend development in React, but also some Python as well.
+
+- I host our quarterly [Developer Conferences](https://algolia.com/devcon)
+- I host [Live Coding Sessions](https://www.youtube.com/watch?v=7Pnq57h4-u0&list=PLuHdbqhRgWHIgHHAXhiwn5UiTVieAvzw3) with our partners
+- I build demo applications like this [COVID-19 Geographic Map](https://www.algolia.com/blog/engineering/building-a-covid-19-geosearch-index-using-csv-files-mongodb-or-graphql/) and this [Video Transciption Search](https://github.com/algolia-samples/avsearch)
+
+**Senior Engineer, Developer Relations and Integrations,**  
+Bold Penguin, March 2019 to August 2021.
+
+I worked with our partners to accelerate their integrations
+with our products. This ranged from single developers linking their
 Salesforce to our commercial insurance exchange to large enterprise teams
 connecting multiple bespoke backend systems to our quote and bind platform.
 
-- I interact with our partners via meetings, email, and slack to answer
-  questions and gather product feedback.
-- I work with our product teams advocating for partner enhancements.
-- I improve our product documentation based on partner feedback.
-- I write and provide coding examples and best practices.
-- I built a [Developers Portal](https://developers.boldpenguin.com)
-  consolidating all of these tools to streamline partner on-boarding and
-  increase brand awareness within the InsureTech space.
+- I engaged directly with partners to answer questions and gather product feedback.
+- I worked with our product teams advocating for partner enhancements.
+- I maintained our product documentation.
+- I wrote coding examples and best practices.
+- I built a [Developers Portal](https://developers.boldpenguin.com) to streamline partner on-boarding 
 
 **Senior Developer Advocate, AWS CloudFormation,**  
 Amazon Web Services, August 2017 to March 2019.
@@ -98,9 +97,8 @@ practices.
 **Web Security Manager,**  
 Federal Reserve/HP, Herndon, VA, January 2013 to July 2013.
 
-I managed a technical team of twelve focused on web application/web service access
-control. The team consisted of SMEs for access management (SiteMinder),
-PKI, LDAP and User Provisioning (Sun Identity Manager).
+I managed a technical team focused on web application/web service access
+control. 
 
 **SiteMinder/DataPower Subject Matter Expert (Consultant),**  
 Federal Reserve/HP, Herndon, VA, Feb. 2006 to January 2013.
