@@ -14,7 +14,7 @@ I am a builder who enjoys working with other builders. When I am excited about a
 PROJECTS
 ---------------
 
-- [A/V Search](https://github.com/algolia-samples/avsearch) demo of video transcript search using Algolia 
+- Coding Badly [Search Powered BattleSnake](https://www.youtube.com/watch?v=pCbFedhS2pU)
 - Technical articles for the [AWS](https://aws.amazon.com/search/?searchQuery=Chuck%20Meyer#facet_type=blogs) and [Algolia](https://www.algolia.com/search/?query=chuck+meyer&tab=blog&website%5Bquery%5D=chuck+meyer) blogs
 - Co-created the open source [cfn-lint](https://github.com/aws-cloudformation/cfn-python-lint) CloudFormation linter
 - Established a [Developers Portal](https://developers.boldpeguin.com) for Bold Penguin's developer community
