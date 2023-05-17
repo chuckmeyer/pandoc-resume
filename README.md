@@ -1,3 +1,13 @@
+# Chuck Meyer's Resume 👋
+# 
+Welcome to the home repo for my resume. I'm not a visual person and really hate futzing with layout/formatting. I found this excellent (thought a bit dated pipeline) using pandoc and context to generate consistent resumes in various file formats and never looked back.
+
+I am a bit obsessed with writing in Markdown. I feel like it's less distracting than WYSIWYG tools and is fairly easily converted over to things like Word docs or HTML for publishing to a blog (or submitting a resume!)
+
+You can build this yourself using the included dockerfile, but the latest versions are also available in the `output` directory.
+
+Thanks for stopping bye!
+
 The Markdown Resume
 ===================
 
