@@ -1,15 +1,18 @@
 -------------------     ----------------------------
 **CHUCK MEYER**                   GitHub: chuckmeyer
 190 E Cooke Rd.                 chuckmeyer@gmail.com
-Columbus, OH 43214                      347-419-0836
+Columbus, OH 43214                  +1(347)419-0836
 -------------------     ----------------------------
 
 SUMMARY
 -------
 
-I am an engineering generalist who has dabbled in API-based development, security, DevOps, and cloud technologies. I have a keen interest in solving problems and communicating those solutions to others. I have designed, coded, deployed, blogged, presented and managed for engineering teams from FinTech to SaaS to government. 
+I am an engineering generalist who enjoys chatting with other builders. When I am excited about a technology, that excitement shows through in everything I do. I code a bit, write a bit, and ask lots of questions.
 
-I am a builder who enjoys working with other builders. When I am excited about a technology, that excitement shows through in everything I do. 
+TECH STACK
+---------------
+
+My current position focuses on frontend devs which means I've been learning JavaScript frameworks like React and NextJS. Previous infrastructure work was primarily in Python. I've also done a smidge of Go for CLIs. Very familiar with DevOps and CI/CD tooling for automated deployments using AWS services.
 
 PROJECTS
 ---------------
@@ -17,36 +20,34 @@ PROJECTS
 - Coding Badly [Search Powered BattleSnake](https://www.youtube.com/watch?v=pCbFedhS2pU)
 - Technical articles for the [AWS](https://aws.amazon.com/search/?searchQuery=Chuck%20Meyer#facet_type=blogs) and [Algolia](https://www.algolia.com/search/?query=chuck+meyer&tab=blog&website%5Bquery%5D=chuck+meyer) blogs
 - Co-created the open source [cfn-lint](https://github.com/aws-cloudformation/cfn-python-lint) CloudFormation linter
-- Established a [Developers Portal](https://developers.boldpeguin.com) for Bold Penguin's developer community
-- Meetups and conferences, including AWS re:Invent
-  - [Deep Dive on AWS CloudFormation](https://www.youtube.com/watch?v=KXUsyApAI3Y)
-  - [Earn Your DevOps Black Belt](https://www.youtube.com/watch?v=X31kA1ANBVw)
+- Conference presentation at the [AWS Public Sector Summit](https://www.youtube.com/watch?v=KXUsyApAI3Y) and [re:Invent](https://www.youtube.com/watch?v=X31kA1ANBVw)
 
 EMPLOYMENT
 ----------
 
-**Senior Developer Advocate,**
+**Lead Developer Advocate,**
 Algolia, August 2021 to present.
 
-I engage the Algolia developer community to provide support and awareness of our search and discovery platform. I've been doing mostly frontend development in React, but also some Python as well.
+I lead a team of two developer advocates and two tech writers that provide support and awareness of Algolia's API-first search platform to our developer community 
 
-- I build demo applications like this [COVID-19 Geographic Map](https://www.algolia.com/blog/engineering/building-a-covid-19-geosearch-index-using-csv-files-mongodb-or-graphql/) and this [Video Transciption Search](https://github.com/algolia-samples/avsearch) and publish blogs explaining them
-- I host our quarterly [Developer Conferences](https://algolia.com/devcon)
+- I launched the [Algolia Discord Server](https://alg.li/discord) with an active community of 550 devs
+- I build demo applications like this [Video Transciption Search](https://github.com/algolia-samples/avsearch)
+- I help organize and host our quarterly [Developer Conferences](https://algolia.com/devcon) alongside Developer Marketingneering 
 - I host [Live Coding Sessions](https://www.youtube.com/watch?v=7Pnq57h4-u0&list=PLuHdbqhRgWHIgHHAXhiwn5UiTVieAvzw3) with our partners
 
 **Senior Engineer, Developer Relations and Integrations,**  
 Bold Penguin, March 2019 to August 2021.
 
-I worked with our partners to accelerate their integrations
-with our products. This ranged from single developers linking their
-Salesforce to our commercial insurance exchange to large enterprise teams
-connecting multiple bespoke backend systems to our quote and bind platform.
+I worked with our partners to accelerate their integrations with Bold Penguins insuretech products. This ranged from single developers agencies to large enterprise teams.
 
-- I engaged directly with partners to answer questions and gather product feedback.
 - I worked with our product teams advocating for partner enhancements.
 - I maintained our product documentation.
 - I wrote coding examples and best practices.
 - I built a [Developers Portal](https://developers.boldpenguin.com) to streamline partner on-boarding 
+
+------
+
+*Generated from Markdown: [https://github.com/chuckmeyer/pandoc_resume](https://github.com/chuckmeyer/pandoc_resume)*
 
 **Senior Developer Advocate, AWS CloudFormation,**  
 Amazon Web Services, August 2017 to March 2019.
@@ -70,33 +71,15 @@ services.
 
 - Reviewed customer cloud network topologies
 - Created AWS security labs for bootcamps, summits, and loft events.
-- I helped customers move away from network perimeter controls toward cloud-native solutions
-- I helped customers understand risks and appropriate controls to secure their data at rest and in transit
 
 **Senior Professional Services Consultant**,  
 Amazon Web Services, New York, NY, July 2013 to April 2016.
 
 I helped large enterprises migrate to AWS and integrate Amazon\'s web services with their existing on-premises systems. I championed repeatable, secure deployment of infrastructure and applications through CI/CD and configuration management.
 
-- Built a pipeline for hardening RHEL7 Amazon Machine
-  Images for PCI compliance in Elastic Beanstalk (Packer, Puppet, and CloudFormation with custom Python code)
-- Cnstructed a CI/CD pipeline for deploying AWS IAM Roles and Policies for delegation of duties requirements (CodeCommit, CodePipeline, Ansible, and CloudFormation)
+- Images for PCI compliance in Elastic Beanstalk (Packer, Puppet, and CloudFormation with custom Python code)
+- Constructed a CI/CD pipeline for deploying AWS IAM Roles and Policies for delegation of duties requirements (CodeCommit, CodePipeline, Ansible, and CloudFormation)
   
-**Web Security Manager,**  
-Federal Reserve/HP, Herndon, VA, January 2013 to July 2013.
-
-**SiteMinder/DataPower Subject Matter Expert (Consultant),**  
-Federal Reserve/HP, Herndon, VA, Feb. 2006 to January 2013.
-
-**Senior Support Engineer**, **Premier Services,**
-CA, Framingham, MA, Nov. 2002 to Feb. 2006.
-
-**Professional Services Consultant**,
-Netegrity, Waltham, MA, December 2000 to May 2002.
-
-**Web Analyst**,
-E.W. Scripps Co., Cincinnati, OH, May 1999 to November 2000.
-
 EDUCATION
 ---------
 
@@ -105,4 +88,4 @@ Northern Kentucky University, KY. August 1997.
 
 --------------------------------------------------------------------------------
 
-*[Generated from Markdown:](https://github.com/chuckmeyer/pandoc_resume) https://github.com/chuckmeyer/pandoc_resume*
+*Generated from Markdown: [https://github.com/chuckmeyer/pandoc_resume](https://github.com/chuckmeyer/pandoc_resume)*
