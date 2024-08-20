@@ -47,7 +47,7 @@ I worked with our partners to accelerate their integrations with Bold Penguins i
 
 ------
 
-*Generated from Markdown: [https://github.com/chuckmeyer/pandoc_resume](https://github.com/chuckmeyer/pandoc_resume)*
+*Generated from Markdown: [https://github.com/chuckmeyer/pandoc-resume](https://github.com/chuckmeyer/pandoc-resume)*
 
 **Senior Developer Advocate, AWS CloudFormation,**  
 Amazon Web Services, August 2017 to March 2019.
@@ -88,4 +88,4 @@ Northern Kentucky University, KY. August 1997.
 
 --------------------------------------------------------------------------------
 
-*Generated from Markdown: [https://github.com/chuckmeyer/pandoc_resume](https://github.com/chuckmeyer/pandoc_resume)*
+*Generated from Markdown: [https://github.com/chuckmeyer/pandoc-resume](https://github.com/chuckmeyer/pandoc-resume)*
