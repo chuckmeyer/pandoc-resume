@@ -7,9 +7,6 @@
   <title>chuckmeyer-resume</title>
   <style>
     html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
@@ -21,17 +18,23 @@
       padding-top: 50px;
       padding-bottom: 50px;
       hyphens: auto;
-      word-wrap: break-word;
+      overflow-wrap: break-word;
       text-rendering: optimizeLegibility;
       font-kerning: normal;
     }
     @media (max-width: 600px) {
       body {
         font-size: 0.9em;
-        padding: 1em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
       }
     }
     @media print {
+      html {
+        background-color: white;
+      }
       body {
         background-color: transparent;
         color: black;
@@ -55,6 +58,10 @@
       color: #1a1a1a;
     }
     img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
       max-width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
@@ -81,9 +88,10 @@
       color: #606060;
     }
     code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
+      hyphens: manual;
     }
     pre {
       margin: 1em 0;
@@ -92,6 +100,7 @@
     pre code {
       padding: 0;
       overflow: visible;
+      overflow-wrap: normal;
     }
     .sourceCode {
      background-color: transparent;
@@ -133,20 +142,31 @@
     #TOC li {
       list-style: none;
     }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
     #TOC a:not(:hover) {
       text-decoration: none;
     }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
   <style type="text/css">
   /*
    * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
@@ -246,78 +266,153 @@
 <body>
 <table>
 <tbody>
-<tr class="odd">
+<tr>
 <td style="text-align: left;"><strong>CHUCK MEYER</strong></td>
 <td style="text-align: right;">GitHub: chuckmeyer</td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;">190 E Cooke Rd.</td>
 <td style="text-align: right;">chuckmeyer@gmail.com</td>
 </tr>
-<tr class="odd">
+<tr>
 <td style="text-align: left;">Columbus, OH 43214</td>
 <td style="text-align: right;">+1(347)419-0836</td>
 </tr>
 </tbody>
 </table>
 <h2 id="summary">SUMMARY</h2>
-<p>I am an engineering generalist who enjoys chatting with other builders. When I am excited about a technology, that excitement shows through in everything I do. I code a bit, write a bit, and ask lots of questions.</p>
+<p>I am an engineering generalist who enjoys learning with other
+builders. When I am excited about a technology, that excitement shows
+through in everything I do. I code a bit, write a bit, and ask lots of
+questions.</p>
 <h2 id="tech-stack">TECH STACK</h2>
-<p>My current position focuses on frontend devs which means I’ve been learning JavaScript frameworks like React and NextJS. Previous infrastructure work was primarily in Python. I’ve also done a smidge of Go for CLIs. Very familiar with DevOps and CI/CD tooling for automated deployments using AWS services.</p>
-<h2 id="projects">PROJECTS</h2>
+<p>My current position focuses on frontend devs working with JavaScript
+frameworks like React and NextJS. Previous cloud infrastructure work was
+primarily in Python. I’ve also done a smidge of Go for CLIs and Dart for
+mobile. I’m very familiar with DevOps and CI/CD tooling for automated
+deployments using AWS services. As with everyone, I’m ramping up on AI
+tooling (mostly MCP and agentic workflows using n8n).</p>
+<h2 id="content">CONTENT</h2>
 <ul>
-<li>Coding Badly <a href="https://www.youtube.com/watch?v=pCbFedhS2pU" target="_blank">Search Powered BattleSnake</a></li>
-<li>Technical articles for the <a href="https://aws.amazon.com/search/?searchQuery=Chuck%20Meyer#facet_type=blogs" target="_blank">AWS</a> and <a href="https://www.algolia.com/search/?query=chuck+meyer&amp;tab=blog&amp;website%5Bquery%5D=chuck+meyer" target="_blank">Algolia</a> blogs</li>
-<li>Co-created the open source <a href="https://github.com/aws-cloudformation/cfn-python-lint" target="_blank">cfn-lint</a> CloudFormation linter</li>
-<li>Conference presentation at the <a href="https://www.youtube.com/watch?v=KXUsyApAI3Y" target="_blank">AWS Public Sector Summit</a> and <a href="https://www.youtube.com/watch?v=X31kA1ANBVw" target="_blank">re:Invent</a></li>
+<li>Blog: <a
+href="https://www.algolia.com/blog/engineering/customizing-algolia-react-components-with-tailwind-classes/"
+target="_blank">Customizing Algolia React components with Tailwind
+classes</a></li>
+<li>Blog: <a
+href="https://www.algolia.com/blog/engineering/feature-spotlight-trends-models-in-recommend/"
+target="_blank">Feature Spotlight: Trends Models in Recommend</a></li>
+<li>Fireside chat: <a
+href="https://www.youtube.com/watch?v=1_kPZ-zm88Y&amp;list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&amp;index=4"
+target="_blank">Lessons learned in integrating Algolia with Hyvä on
+Magento 2</a></li>
+<li>Panel: <a href="https://www.youtube.com/watch?v=B2TuVyl_GO4"
+target="_blank">Finding out what’s best - Etienne Martin, Daniel
+Tunkelang, Eric Pugh &amp; Charlie Hull</a></li>
+<li>Live coding: <a
+href="https://www.youtube.com/watch?v=AXkWMaPceoE&amp;list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&amp;index=17"
+target="_blank">Adding search insights to your InstantSearch
+application</a></li>
+<li>Lightning talk: <a
+href="https://www.youtube.com/watch?v=ogF4NnrrJwE&amp;t=3006s"
+target="_blank">Agentic query understanding using search MPCs</a></li>
+<li>Conference: <a href="https://www.youtube.com/watch?v=X31kA1ANBVw"
+target="_blank">AWS re:Invent 2018: Deployment Scenarios with AWS
+CloudFormation (DEV308-R1)</a></li>
+<li>Blog: <a
+href="https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/"
+target="_blank">Git pre-commit validation of AWS CloudFormation
+templates with cfn-lint</a></li>
 </ul>
 <h2 id="employment">EMPLOYMENT</h2>
-<p><strong>Lead Developer Advocate,</strong> Algolia, August 2021 to present.</p>
-<p>I lead a team of two developer advocates and two tech writers that provide support and awareness of Algolia’s API-first search platform to our developer community</p>
+<p><strong>Senior Manager, Developer Relations</strong> August 2025 to
+present.</p>
+<p><strong>Lead Developer Advocate,</strong> Algolia, August 2021 to
+August 2025.</p>
+<p>I lead a team of developer advocates, tech writers and developer
+marketers that provide support and awareness of Algolia’s API-first
+search platform to our developer community</p>
 <ul>
-<li>I launched the <a href="https://alg.li/discord" target="_blank">Algolia Discord Server</a> with an active community of 550 devs</li>
-<li>I build demo applications like this <a href="https://github.com/algolia-samples/avsearch" target="_blank">Video Transciption Search</a></li>
-<li>I help organize and host our quarterly <a href="https://algolia.com/devcon" target="_blank">Developer Conferences</a> alongside Developer Marketingneering</li>
-<li>I host <a href="https://www.youtube.com/watch?v=7Pnq57h4-u0&amp;list=PLuHdbqhRgWHIgHHAXhiwn5UiTVieAvzw3" target="_blank">Live Coding Sessions</a> with our partners</li>
+<li>I launched the <a href="https://alg.li/discord"
+target="_blank">Algolia Discord Server</a> with an active community of
+over 2,000 devs</li>
+<li>I manage Algolia’s docs migration to <a
+href="https://algolia2-feat-api-clients.mintlify.app/home"
+target="_blank">Mintlify</a> (launching 10/1)</li>
+<li>I build demo applications like this <a
+href="https://github.com/algolia-samples/avsearch" target="_blank">Video
+Transciption Search</a></li>
+<li>I help organize and host our quarterly <a
+href="https://algolia.com/devcon" target="_blank">Developer
+Conferences</a> alongside Developer Marketing</li>
+<li>I host <a
+href="https://www.youtube.com/watch?v=7Pnq57h4-u0&amp;list=PLuHdbqhRgWHIgHHAXhiwn5UiTVieAvzw3"
+target="_blank">Live Coding Sessions</a> with our partners</li>
 </ul>
-<p><strong>Senior Engineer, Developer Relations and Integrations,</strong><br />
+<p><strong>Senior Engineer, Developer Relations and
+Integrations,</strong><br />
 Bold Penguin, March 2019 to August 2021.</p>
-<p>I worked with our partners to accelerate their integrations with Bold Penguins insuretech products. This ranged from single developers agencies to large enterprise teams.</p>
+<p>I worked with our partners to accelerate their integrations with Bold
+Penguins insuretech products. This ranged from single developers
+agencies to large enterprise teams.</p>
 <ul>
-<li>I worked with our product teams advocating for partner enhancements.</li>
+<li>I worked with our product teams advocating for partner
+enhancements.</li>
 <li>I maintained our product documentation.</li>
 <li>I wrote coding examples and best practices.</li>
-<li>I built a <a href="https://developers.boldpenguin.com" target="_blank">Developers Portal</a> to streamline partner on-boarding</li>
+<li>I built a <a href="https://developers.boldpenguin.com"
+target="_blank">Developers Portal</a> to streamline partner
+on-boarding</li>
 </ul>
 <hr />
-<p><em>Generated from Markdown: <a href="https://github.com/chuckmeyer/pandoc-resume" target="_blank">https://github.com/chuckmeyer/pandoc-resume</a></em></p>
+<p><em>Generated from Markdown: <a
+href="https://github.com/chuckmeyer/pandoc-resume"
+target="_blank">https://github.com/chuckmeyer/pandoc-resume</a></em></p>
 <p><strong>Senior Developer Advocate, AWS CloudFormation,</strong><br />
 Amazon Web Services, August 2017 to March 2019.</p>
-<p>I reported to the AWS CloudFormation service director and served as a liason between the service team and the developer community. I guided customers in following best practices, served as a rallying point for the community, and voiced customer concerns back to the service team.</p>
+<p>I reported to the AWS CloudFormation service director and served as a
+liason between the service team and the developer community. I guided
+customers in following best practices, served as a rallying point for
+the community, and voiced customer concerns back to the service
+team.</p>
 <ul>
-<li>Represented the developer community in service team planning sessions</li>
+<li>Represented the developer community in service team planning
+sessions</li>
 <li>Maintained AWS CloudFormation’s open source repositories.</li>
-<li>Designed and published best practices and solutions for AWS’ management tools blog</li>
-<li>Engaged with customers at meetups and conferences about infrastructure as code best practices</li>
+<li>Designed and published best practices and solutions for AWS’
+management tools blog</li>
+<li>Engaged with customers at meetups and conferences about
+infrastructure as code best practices</li>
 </ul>
 <p><strong>Security Solution Architect,</strong><br />
 Amazon Web Services, April 2016 to August 2017.</p>
-<p>I spoke with CISOs and security practitioners across North America on how to improve their IT security posture by building applications using AWS cloud services.</p>
+<p>I spoke with CISOs and security practitioners across North America on
+how to improve their IT security posture by building applications using
+AWS cloud services.</p>
 <ul>
 <li>Reviewed customer cloud network topologies</li>
-<li>Created AWS security labs for bootcamps, summits, and loft events.</li>
+<li>Created AWS security labs for bootcamps, summits, and loft
+events.</li>
 </ul>
 <p><strong>Senior Professional Services Consultant</strong>,<br />
 Amazon Web Services, New York, NY, July 2013 to April 2016.</p>
-<p>I helped large enterprises migrate to AWS and integrate Amazon's web services with their existing on-premises systems. I championed repeatable, secure deployment of infrastructure and applications through CI/CD and configuration management.</p>
+<p>I helped large enterprises migrate to AWS and integrate Amazon's web
+services with their existing on-premises systems. I championed
+repeatable, secure deployment of infrastructure and applications through
+CI/CD and configuration management.</p>
 <ul>
-<li>Images for PCI compliance in Elastic Beanstalk (Packer, Puppet, and CloudFormation with custom Python code)</li>
-<li>Constructed a CI/CD pipeline for deploying AWS IAM Roles and Policies for delegation of duties requirements (CodeCommit, CodePipeline, Ansible, and CloudFormation)</li>
+<li>Images for PCI compliance in Elastic Beanstalk (Packer, Puppet, and
+CloudFormation with custom Python code)</li>
+<li>Constructed a CI/CD pipeline for deploying AWS IAM Roles and
+Policies for delegation of duties requirements (CodeCommit,
+CodePipeline, Ansible, and CloudFormation)</li>
 </ul>
 <h2 id="education">EDUCATION</h2>
-<p>BS: Mathematics and Computer Science, BA: Literature and Writing (Cum Laude),<br />
+<p>BS: Mathematics and Computer Science, BA: Literature and Writing (Cum
+Laude),<br />
 Northern Kentucky University, KY. August 1997.</p>
 <hr />
-<p><em>Generated from Markdown: <a href="https://github.com/chuckmeyer/pandoc-resume" target="_blank">https://github.com/chuckmeyer/pandoc-resume</a></em></p>
+<p><em>Generated from Markdown: <a
+href="https://github.com/chuckmeyer/pandoc-resume"
+target="_blank">https://github.com/chuckmeyer/pandoc-resume</a></em></p>
 </body>
 </html>

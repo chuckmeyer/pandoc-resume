@@ -7,32 +7,39 @@ Columbus, OH 43214                  +1(347)419-0836
 SUMMARY
 -------
 
-I am an engineering generalist who enjoys chatting with other builders. When I am excited about a technology, that excitement shows through in everything I do. I code a bit, write a bit, and ask lots of questions.
+I am an engineering generalist who enjoys learning with other builders. When I am excited about a technology, that excitement shows through in everything I do. I code a bit, write a bit, and ask lots of questions. 
 
 TECH STACK
 ---------------
 
-My current position focuses on frontend devs which means I've been learning JavaScript frameworks like React and NextJS. Previous infrastructure work was primarily in Python. I've also done a smidge of Go for CLIs. Very familiar with DevOps and CI/CD tooling for automated deployments using AWS services.
+My current position focuses on frontend devs working with JavaScript frameworks like React and NextJS. Previous cloud infrastructure work was primarily in Python. I've also done a smidge of Go for CLIs and Dart for mobile. I'm very familiar with DevOps and CI/CD tooling for automated deployments using AWS services. As with everyone, I'm ramping up on AI tooling (mostly MCP and agentic workflows using n8n).
 
-PROJECTS
+CONTENT
 ---------------
 
-- Coding Badly [Search Powered BattleSnake](https://www.youtube.com/watch?v=pCbFedhS2pU)
-- Technical articles for the [AWS](https://aws.amazon.com/search/?searchQuery=Chuck%20Meyer#facet_type=blogs) and [Algolia](https://www.algolia.com/search/?query=chuck+meyer&tab=blog&website%5Bquery%5D=chuck+meyer) blogs
-- Co-created the open source [cfn-lint](https://github.com/aws-cloudformation/cfn-python-lint) CloudFormation linter
-- Conference presentation at the [AWS Public Sector Summit](https://www.youtube.com/watch?v=KXUsyApAI3Y) and [re:Invent](https://www.youtube.com/watch?v=X31kA1ANBVw)
+- Blog: [Customizing Algolia React components with Tailwind classes](https://www.algolia.com/blog/engineering/customizing-algolia-react-components-with-tailwind-classes/)
+- Blog: [Feature Spotlight: Trends Models in Recommend](https://www.algolia.com/blog/engineering/feature-spotlight-trends-models-in-recommend/)
+- Fireside chat: [Lessons learned in integrating Algolia with Hyvä on Magento 2](https://www.youtube.com/watch?v=1_kPZ-zm88Y&list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&index=4)
+- Panel: [Finding out what's best - Etienne Martin, Daniel Tunkelang, Eric Pugh & Charlie Hull](https://www.youtube.com/watch?v=B2TuVyl_GO4)
+- Live coding: [Adding search insights to your InstantSearch application](https://www.youtube.com/watch?v=AXkWMaPceoE&list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&index=17)
+- Lightning talk: [Agentic query understanding using search MPCs](https://www.youtube.com/watch?v=ogF4NnrrJwE&t=3006s)
+- Conference: [AWS re:Invent 2018:  Deployment Scenarios with AWS CloudFormation (DEV308-R1)](https://www.youtube.com/watch?v=X31kA1ANBVw)
+- Blog: [Git pre-commit validation of AWS CloudFormation templates with cfn-lint](https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/)
 
 EMPLOYMENT
 ----------
+**Senior Manager, Developer Relations**
+August 2025 to present.
 
 **Lead Developer Advocate,**
-Algolia, August 2021 to present.
+Algolia, August 2021 to August 2025.
 
-I lead a team of two developer advocates and two tech writers that provide support and awareness of Algolia's API-first search platform to our developer community 
+I lead a team of developer advocates, tech writers and developer marketers that provide support and awareness of Algolia's API-first search platform to our developer community 
 
-- I launched the [Algolia Discord Server](https://alg.li/discord) with an active community of 550 devs
+- I launched the [Algolia Discord Server](https://alg.li/discord) with an active community of over 2,000 devs
+- I manage Algolia's docs migration to [Mintlify](https://algolia2-feat-api-clients.mintlify.app/home) (launching 10/1)
 - I build demo applications like this [Video Transciption Search](https://github.com/algolia-samples/avsearch)
-- I help organize and host our quarterly [Developer Conferences](https://algolia.com/devcon) alongside Developer Marketingneering 
+- I help organize and host our quarterly [Developer Conferences](https://algolia.com/devcon) alongside Developer Marketing 
 - I host [Live Coding Sessions](https://www.youtube.com/watch?v=7Pnq57h4-u0&list=PLuHdbqhRgWHIgHHAXhiwn5UiTVieAvzw3) with our partners
 
 **Senior Engineer, Developer Relations and Integrations,**  

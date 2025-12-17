@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>chuck_meyer_resume</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  /* h1:hover { */
+  /*     background-color: #757575; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  /* h2:hover { */
+  /*     background-color: #397249; */
+  /*     color: #FFFFFF; */
+  /*     text-shadow: 1px 1px 1px #333; */
+  /* } */
+
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      font-weight: bold;
+  }
+  dd {
+      margin-left: 17%;
+      margin-bottom:7px;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="section"></h1>
+<h2 id="charles-chuck-meyer">CHARLES (CHUCK) MEYER</h2>
+<p>📧 chuckmeyer@gmail.com | 📱 +1(347) 419-0836 | 📍 Columbus, OH<br />
+🔗 GitHub: chuckmeyer | 💼 LinkedIn: linkedin.com/in/chuckm</p>
+<hr />
+<h3 id="professional-summary">PROFESSIONAL SUMMARY</h3>
+<p>Developer Relations leader with experience building and scaling
+developer communities from the ground up. Proven track record launching
+community platforms (2,000+ member Discord), migrating technical
+documentation, and establishing developer advocacy programs that drive
+adoption of API-first platforms. Deep security expertise working with
+CISOs and enterprise security teams on cloud infrastructure and
+compliance frameworks.</p>
+<h3 id="core-competencies">CORE COMPETENCIES</h3>
+<p><strong>Developer Community Building</strong> - <strong>Technical
+Documentation</strong> - <strong>API Integration &amp;
+Support</strong><br />
+<strong>JavaScript/React/Next.js</strong> - <strong>Python</strong> -
+<strong>Go</strong> - <strong>AWS Services &amp; Security</strong><br />
+<strong>DevOps/CI/CD</strong> - <strong>Developer Advocacy</strong> -
+<strong>Technical Writing</strong> - <strong>Public
+Speaking</strong><br />
+<strong>AI/ML Integration</strong> (MCP, Agentic Workflows) -
+<strong>Security Architecture</strong> - <strong>Compliance
+Frameworks</strong></p>
+<hr />
+<h3 id="technical-content">TECHNICAL CONTENT</h3>
+<p><strong>Writing</strong></p>
+<ul>
+<li><a
+href="https://www.algolia.com/blog/engineering/customizing-algolia-react-components-with-tailwind-classes/"
+target="_blank">Customizing Algolia React components with Tailwind
+classes</a> - Algolia Engineering Blog</li>
+<li><a
+href="https://www.algolia.com/blog/engineering/feature-spotlight-trends-models-in-recommend/"
+target="_blank">Feature Spotlight: Trends Models in Recommend</a> -
+Algolia Engineering Blog<br />
+</li>
+<li><a
+href="https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/"
+target="_blank">Git pre-commit validation of AWS CloudFormation
+templates</a> - AWS Management Tools Blog</li>
+</ul>
+<p><strong>Speaking &amp; Presentations</strong></p>
+<ul>
+<li><strong>AWS re:Invent 2018</strong> - <a
+href="https://www.youtube.com/watch?v=X31kA1ANBVw"
+target="_blank">Deployment Scenarios with AWS CloudFormation</a></li>
+<li><strong>Search Relevance Panel</strong> - <a
+href="https://www.youtube.com/watch?v=B2TuVyl_GO4"
+target="_blank">Finding out what’s best</a> with industry experts</li>
+<li><strong>Lightning Talk</strong> - <a
+href="https://www.youtube.com/watch?v=ogF4NnrrJwE&amp;t=3006s"
+target="_blank">Agentic query understanding using search MPCs</a></li>
+</ul>
+<p><strong>Community Engagement</strong></p>
+<ul>
+<li><strong>Live Coding Series</strong> - <a
+href="https://www.youtube.com/watch?v=AXkWMaPceoE&amp;list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&amp;index=17"
+target="_blank">Adding search insights to InstantSearch
+applications</a></li>
+<li><strong>Fireside Chat</strong> - <a
+href="https://www.youtube.com/watch?v=1_kPZ-zm88Y&amp;list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&amp;index=4"
+target="_blank">Lessons learned in Algolia-Hyvä integration on Magento
+2</a></li>
+<li>Sponsored Content - <a
+href="https://codetv.dev/series/web-dev-challenge/s2/e6-future-of-ai-native-ux"
+target="_blank">The WebDev Challenge</a></li>
+</ul>
+<hr />
+<h3 id="recent-projects">RECENT PROJECTS</h3>
+<p><strong>Video Transcription Search Application</strong> - <a
+href="https://github.com/algolia-samples/avsearch"
+target="_blank">GitHub: algolia-samples/avsearch</a><br />
+Full-stack demo showcasing advanced search capabilities with video
+content indexing and real-time search insights.</p>
+<p><strong>AI-Powered Developer Workflows</strong> - Implementing MCP
+(Model Context Protocol) and agentic workflows using n8n for automated
+developer support and community engagement.</p>
+<hr />
+<h3 id="professional-experience">PROFESSIONAL EXPERIENCE</h3>
+<p><strong>Senior Manager, Developer Relations</strong> | Algolia -
+<em>August 2025 to present</em></p>
+<p><strong>Lead Developer Advocate</strong> | Algolia - <em>August 2021
+to August 2025</em></p>
+<p>Leading a cross-functional team of developer advocates, technical
+writers, and developer marketers supporting Algolia’s API-first search
+platform.</p>
+<p><strong>Key Achievements:</strong></p>
+<ul>
+<li><strong>Launched Algolia Discord Server</strong> from 0 to 2,000+
+active developers in one year, creating primary community engagement
+channel</li>
+<li><strong>Managing documentation migration</strong> to Mintlify
+platform, improving developer onboarding experience</li>
+<li><strong>Organize and host quarterly Developer Livestream</strong>
+with 200-500 concurrent attendance, driving product adoption and
+community growth</li>
+<li><strong>Host live coding sessions</strong> with partners, creating
+product awareness by cross-pollinating user communites</li>
+</ul>
+<p><strong>Responsibilities:</strong></p>
+<ul>
+<li>Built demo applications showcasing platform capabilities, including
+video transcription search solutions</li>
+<li>Managed developer advocacy team and coordinated with product teams
+on new feature awareness</li>
+<li>Created technical content strategy spanning blogs, video tutorials,
+and conference presentations</li>
+</ul>
+<hr />
+<p><strong>Senior Engineer, Developer Relations and
+Integrations</strong> | Bold Penguin - <em>March 2019 to August
+2021</em></p>
+<p>Accelerated partner integrations with Bold Penguin’s insurtech
+products, supporting developers from individual agencies to large
+enterprise teams.</p>
+<p><strong>Key Achievements:</strong></p>
+<ul>
+<li><strong>Built comprehensive Developers Portal</strong> streamlining
+partner onboarding and reducing integration complexity</li>
+<li><strong>Maintained product documentation</strong> serving
+integration partners across agency and enterprise segments</li>
+<li><strong>Advocated for partner-requested enhancements</strong> with
+product teams, improving API usability</li>
+</ul>
+<hr />
+<p><strong>Senior Developer Advocate, AWS CloudFormation</strong> |
+Amazon Web Services - <em>August 2017 to March 2019</em></p>
+<p>Served as liaison between AWS CloudFormation service team and global
+developer community, reporting directly to service director.</p>
+<p><strong>Key Achievements:</strong></p>
+<ul>
+<li><strong>Represented developer community</strong> in service team
+planning sessions, influencing product roadmap decisions</li>
+<li><strong>Maintained open source repositories</strong> with active
+contributor community</li>
+<li><strong>Published best practices content</strong> on AWS management
+tools blog with broad developer reach</li>
+<li><strong>Engaged enterprise customers</strong> at meetups and
+conferences on infrastructure as code adoption</li>
+</ul>
+<hr />
+<p><strong>Security Solution Architect</strong> | Amazon Web Services -
+<em>April 2016 to August 2017</em></p>
+<p>Consulted with CISOs and security practitioners across North America
+on improving IT security posture using AWS cloud services.</p>
+<p><strong>Key Achievements:</strong></p>
+<ul>
+<li><strong>Reviewed customer cloud network topologies</strong> for
+security best practices and compliance requirements</li>
+<li><strong>Created AWS security labs</strong> for bootcamps, summits,
+and loft events, training security professionals</li>
+<li><strong>Advised on security frameworks</strong> including PCI,
+HIPAA, and SOC compliance in cloud environments</li>
+</ul>
+<hr />
+<p><strong>Senior Professional Services Consultant</strong> | Amazon Web
+Services - <em>July 2013 to April 2016</em></p>
+<p>Helped large enterprises migrate to AWS and integrate Amazon web
+services with existing on-premises systems, specializing in secure,
+repeatable deployments.</p>
+<p><strong>Key Projects:</strong></p>
+<ul>
+<li><strong>PCI-compliant infrastructure</strong> using Elastic
+Beanstalk with Packer, Puppet, and CloudFormation</li>
+<li><strong>CI/CD pipeline for IAM governance</strong> using CodeCommit,
+CodePipeline, Ansible, and CloudFormation for regulatory compliance</li>
+</ul>
+<hr />
+<h3 id="education">EDUCATION</h3>
+<p><strong>Bachelor of Science</strong> - Mathematics and Computer
+Science<br />
+<strong>Bachelor of Arts</strong> - Literature and Writing (Cum
+Laude)<br />
+<em>Northern Kentucky University</em> | 1997</p>
+</body>
+</html>
