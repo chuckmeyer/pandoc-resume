@@ -22,10 +22,9 @@ Developer Relations leader who builds and scales developer communities for API-f
 
 ## CORE COMPETENCIES
 
-**Developer Community Building** · **Technical Documentation** · **API Integration & Support**  
-**JavaScript/React/Next.js** · **Python** · **Go** · **AWS Services & Security**  
-**DevOps/CI/CD** · **Developer Advocacy** · **Technical Writing** · **Public Speaking**  
-**AI Agents** (MCP, Tool Use, Agentic Workflows, Evals; multi-model via Algolia Agent Studio, Claude daily for AI-assisted development) · **Security Architecture** · **Compliance Frameworks**
+**AI Agents** (MCP, Tool Use, Evals, multi-model; Algolia Agent Studio) · **Claude Code**  
+**Developer Community** · **Documentation** · **Technical Content** · **Public Speaking**  
+**JavaScript/React** · **Python** · **Go** · **AWS** · **Security & Compliance**
 
 ## EXPERIENCE
 
@@ -37,9 +36,9 @@ Developer Relations leader who builds and scales developer communities for API-f
 - Launched the Algolia Discord from 0 to 2,000+ active developers in one year
 - Host Algolia DevCon, the annual developer conference, for five consecutive years (2026 edition on October 1), plus quarterly developer livestreams with 200-500 concurrent attendees
 - Built a reusable agentic demo platform, [TCG Search](https://alg.li/tcg-search), and deployed it at eight conferences in six months, including Microsoft Build, Gartner, Adobe Summit, Shoptalk and eTail, each in a week or less
-- Published agent-focused engineering content: "We rewrote the Algolia CLI for AI agents" (419 views, a top-five Algolia engineering blog post for February to August 2026) and "Chat, meet the Searchbox" (267 views)
+- Published agent-focused engineering content: "We rewrote the Algolia CLI for AI agents" (a top-five Algolia engineering blog post for February to August 2026) and "Chat, meet the Searchbox"
 - Host live coding sessions with partners, cross-pollinating user communities, and built demo applications such as a video transcription search (avsearch)
-- Produced the Quick Start video embedded in the getting-started docs (811 views in its first month)
+- Produced the Quick Start video embedded in the getting-started docs (more first-month views than any Algolia engineering blog post that half)
 - Claimed Algolia's library on Context7 and moved llms.txt to its canonical location so AI tools can read the docs
 - Editor and coach for internal and external technical content, giving pre-publication feedback on blogs, tutorials and speaker sessions
 - Spoke to Algolia's Aspiring Managers Program on moving from IC to manager
@@ -76,12 +75,12 @@ Developer Relations leader who builds and scales developer communities for API-f
 
 ## WRITING AND SPEAKING
 
-- **Writing:** [We rewrote the Algolia CLI for AI agents](https://www.algolia.com/blog/engineering/we-rewrote-the-algolia-cli-for-ai-agents) (2026), [Chat, meet the Searchbox](https://www.algolia.com/blog/engineering/chat-meet-the-searchbox) (2026), [The Agent Factory](https://dev.to/chuckm/the-agent-factory-building-consistent-agents-at-scale-22an) (2026), [Building a JavaScript "Hello, World" MCP server](https://dev.to/chuckm/building-a-javascript-helloworld-mcp-server-in-2026-2lbc) (398 views), [Customizing Algolia React components with Tailwind classes](https://www.algolia.com/blog/engineering/customizing-algolia-react-components-with-tailwind-classes/), [Feature Spotlight: Trends Models in Recommend](https://www.algolia.com/blog/engineering/feature-spotlight-trends-models-in-recommend/), [Git pre-commit validation of CloudFormation templates](https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/) (AWS). More at [dev.to/chuckm](https://dev.to/chuckm)
+- **Writing:** [We rewrote the Algolia CLI for AI agents](https://www.algolia.com/blog/engineering/we-rewrote-the-algolia-cli-for-ai-agents) (2026), [Chat, meet the Searchbox](https://www.algolia.com/blog/engineering/chat-meet-the-searchbox) (2026), [The Agent Factory](https://dev.to/chuckm/the-agent-factory-building-consistent-agents-at-scale-22an) (2026), [Building a JavaScript "Hello, World" MCP server](https://dev.to/chuckm/building-a-javascript-helloworld-mcp-server-in-2026-2lbc) (my best-performing dev.to post since 2022), [Customizing Algolia React components with Tailwind classes](https://www.algolia.com/blog/engineering/customizing-algolia-react-components-with-tailwind-classes/), [Feature Spotlight: Trends Models in Recommend](https://www.algolia.com/blog/engineering/feature-spotlight-trends-models-in-recommend/), [Git pre-commit validation of CloudFormation templates](https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/) (AWS). More at [dev.to/chuckm](https://dev.to/chuckm)
 - **Talks:** [DevRelCon 2026, Blog While the Context is Fresh](https://www.youtube.com/watch?v=sGjrVZcRkOg&list=PLcKOCtTONOAY&index=17) · [Haystack US 2025 lightning talk, Agentic query understanding using search MCPs](https://www.youtube.com/watch?v=ogF4NnrrJwE&t=3006s) · [AWS re:Invent 2018, Deployment Scenarios with AWS CloudFormation](https://www.youtube.com/watch?v=X31kA1ANBVw) (11,000+ views) · [Search relevance panel, Finding out what's best](https://www.youtube.com/watch?v=B2TuVyl_GO4)
 - **Live coding and community:** [Adding search insights to InstantSearch applications](https://www.youtube.com/watch?v=AXkWMaPceoE&list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&index=17) (2,000+ views) · [Fireside chat, Algolia-Hyvä integration on Magento 2](https://www.youtube.com/watch?v=1_kPZ-zm88Y&list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&index=4) · [The WebDev Challenge, Future of AI-native UX](https://codetv.dev/series/web-dev-challenge/s2/e6-future-of-ai-native-ux)
 
 ## EDUCATION
 
-**Bachelor of Science**, Mathematics and Computer Science  
+**Bachelor of Science**, Mathematics and Computer Science (Cum Laude)  
 **Bachelor of Arts**, Literature and Writing (Cum Laude)  
 Northern Kentucky University | 1997

@@ -153,6 +153,7 @@
   @font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-Italic.ttf"); font-weight: 400; font-style: italic; }
   @font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-Bold.ttf"); font-weight: 700; font-style: normal; }
   @font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-BoldItalic.ttf"); font-weight: 700; font-style: italic; }
+  @font-face { font-family: "Geist Mono"; src: url("../styles/fonts/GeistMono-Regular.ttf"); font-weight: 400; font-style: normal; }
   @page { size: Letter; margin: 0.45in 0.55in; }
 
   body {
@@ -175,6 +176,7 @@
   .location { text-align: center; margin: 0 0 3pt 0; }
   .contact { display: flex; justify-content: space-between; margin: 0 0 4pt 0; }
   .contact p { margin: 0; }
+  .contact .left { word-spacing: -0.1em; }
   .contact .right { text-align: right; }
 
   h2 {
@@ -194,6 +196,8 @@
 
   h2, li, p { break-inside: avoid; }
   h2 { break-after: avoid; }
+  em { font-family: "Geist Mono", monospace; font-style: normal; font-size: 9pt; }
+  h2#selected-projects + ul > li > a, h2#selected-projects + ul > li > a strong { font-family: "Geist Mono", monospace; font-weight: 400; font-size: 9.5pt; }
   </style>
 </head>
 <body>
@@ -214,10 +218,9 @@
 <h2 id="summary">SUMMARY</h2>
 <p>Developer Relations leader who builds and scales developer communities for API-first platforms: a 2,000+ member Discord, a zero-downtime docs migration, and five years hosting Algolia DevCon. Currently focused on developer experience for AI agents, building conversational search with MCP and tool-calling agents and writing about agent-ready developer tooling. Deep security background from advising CISOs on cloud infrastructure and compliance.</p>
 <h2 id="core-competencies">CORE COMPETENCIES</h2>
-<p><strong>Developer Community Building</strong> · <strong>Technical Documentation</strong> · <strong>API Integration &amp; Support</strong><br />
-<strong>JavaScript/React/Next.js</strong> · <strong>Python</strong> · <strong>Go</strong> · <strong>AWS Services &amp; Security</strong><br />
-<strong>DevOps/CI/CD</strong> · <strong>Developer Advocacy</strong> · <strong>Technical Writing</strong> · <strong>Public Speaking</strong><br />
-<strong>AI Agents</strong> (MCP, Tool Use, Agentic Workflows, Evals; multi-model via Algolia Agent Studio, Claude daily for AI-assisted development) · <strong>Security Architecture</strong> · <strong>Compliance Frameworks</strong></p>
+<p><strong>AI Agents</strong> (MCP, Tool Use, Evals, multi-model; Algolia Agent Studio) · <strong>Claude Code</strong><br />
+<strong>Developer Community</strong> · <strong>Documentation</strong> · <strong>Technical Content</strong> · <strong>Public Speaking</strong><br />
+<strong>JavaScript/React</strong> · <strong>Python</strong> · <strong>Go</strong> · <strong>AWS</strong> · <strong>Security &amp; Compliance</strong></p>
 <h2 id="experience">EXPERIENCE</h2>
 <p><strong>Senior Manager, Developer Relations</strong> | Algolia | <em>August 2025 to present</em><br />
 <strong>Lead Developer Advocate</strong> | Algolia | <em>August 2021 to August 2025</em></p>
@@ -227,9 +230,9 @@
 <li>Launched the Algolia Discord from 0 to 2,000+ active developers in one year</li>
 <li>Host Algolia DevCon, the annual developer conference, for five consecutive years (2026 edition on October 1), plus quarterly developer livestreams with 200-500 concurrent attendees</li>
 <li>Built a reusable agentic demo platform, <a href="https://alg.li/tcg-search" target="_blank">TCG Search</a>, and deployed it at eight conferences in six months, including Microsoft Build, Gartner, Adobe Summit, Shoptalk and eTail, each in a week or less</li>
-<li>Published agent-focused engineering content: “We rewrote the Algolia CLI for AI agents” (419 views, a top-five Algolia engineering blog post for February to August 2026) and “Chat, meet the Searchbox” (267 views)</li>
+<li>Published agent-focused engineering content: “We rewrote the Algolia CLI for AI agents” (a top-five Algolia engineering blog post for February to August 2026) and “Chat, meet the Searchbox”</li>
 <li>Host live coding sessions with partners, cross-pollinating user communities, and built demo applications such as a video transcription search (avsearch)</li>
-<li>Produced the Quick Start video embedded in the getting-started docs (811 views in its first month)</li>
+<li>Produced the Quick Start video embedded in the getting-started docs (more first-month views than any Algolia engineering blog post that half)</li>
 <li>Claimed Algolia’s library on Context7 and moved llms.txt to its canonical location so AI tools can read the docs</li>
 <li>Editor and coach for internal and external technical content, giving pre-publication feedback on blogs, tutorials and speaker sessions</li>
 <li>Spoke to Algolia’s Aspiring Managers Program on moving from IC to manager</li>
@@ -266,12 +269,12 @@
 </ul>
 <h2 id="writing-and-speaking">WRITING AND SPEAKING</h2>
 <ul>
-<li><strong>Writing:</strong> <a href="https://www.algolia.com/blog/engineering/we-rewrote-the-algolia-cli-for-ai-agents" target="_blank">We rewrote the Algolia CLI for AI agents</a> (2026), <a href="https://www.algolia.com/blog/engineering/chat-meet-the-searchbox" target="_blank">Chat, meet the Searchbox</a> (2026), <a href="https://dev.to/chuckm/the-agent-factory-building-consistent-agents-at-scale-22an" target="_blank">The Agent Factory</a> (2026), <a href="https://dev.to/chuckm/building-a-javascript-helloworld-mcp-server-in-2026-2lbc" target="_blank">Building a JavaScript “Hello, World” MCP server</a> (398 views), <a href="https://www.algolia.com/blog/engineering/customizing-algolia-react-components-with-tailwind-classes/" target="_blank">Customizing Algolia React components with Tailwind classes</a>, <a href="https://www.algolia.com/blog/engineering/feature-spotlight-trends-models-in-recommend/" target="_blank">Feature Spotlight: Trends Models in Recommend</a>, <a href="https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/" target="_blank">Git pre-commit validation of CloudFormation templates</a> (AWS). More at <a href="https://dev.to/chuckm" target="_blank">dev.to/chuckm</a></li>
+<li><strong>Writing:</strong> <a href="https://www.algolia.com/blog/engineering/we-rewrote-the-algolia-cli-for-ai-agents" target="_blank">We rewrote the Algolia CLI for AI agents</a> (2026), <a href="https://www.algolia.com/blog/engineering/chat-meet-the-searchbox" target="_blank">Chat, meet the Searchbox</a> (2026), <a href="https://dev.to/chuckm/the-agent-factory-building-consistent-agents-at-scale-22an" target="_blank">The Agent Factory</a> (2026), <a href="https://dev.to/chuckm/building-a-javascript-helloworld-mcp-server-in-2026-2lbc" target="_blank">Building a JavaScript “Hello, World” MCP server</a> (my best-performing dev.to post since 2022), <a href="https://www.algolia.com/blog/engineering/customizing-algolia-react-components-with-tailwind-classes/" target="_blank">Customizing Algolia React components with Tailwind classes</a>, <a href="https://www.algolia.com/blog/engineering/feature-spotlight-trends-models-in-recommend/" target="_blank">Feature Spotlight: Trends Models in Recommend</a>, <a href="https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/" target="_blank">Git pre-commit validation of CloudFormation templates</a> (AWS). More at <a href="https://dev.to/chuckm" target="_blank">dev.to/chuckm</a></li>
 <li><strong>Talks:</strong> <a href="https://www.youtube.com/watch?v=sGjrVZcRkOg&amp;list=PLcKOCtTONOAY&amp;index=17" target="_blank">DevRelCon 2026, Blog While the Context is Fresh</a> · <a href="https://www.youtube.com/watch?v=ogF4NnrrJwE&amp;t=3006s" target="_blank">Haystack US 2025 lightning talk, Agentic query understanding using search MCPs</a> · <a href="https://www.youtube.com/watch?v=X31kA1ANBVw" target="_blank">AWS re:Invent 2018, Deployment Scenarios with AWS CloudFormation</a> (11,000+ views) · <a href="https://www.youtube.com/watch?v=B2TuVyl_GO4" target="_blank">Search relevance panel, Finding out what’s best</a></li>
 <li><strong>Live coding and community:</strong> <a href="https://www.youtube.com/watch?v=AXkWMaPceoE&amp;list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&amp;index=17" target="_blank">Adding search insights to InstantSearch applications</a> (2,000+ views) · <a href="https://www.youtube.com/watch?v=1_kPZ-zm88Y&amp;list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&amp;index=4" target="_blank">Fireside chat, Algolia-Hyvä integration on Magento 2</a> · <a href="https://codetv.dev/series/web-dev-challenge/s2/e6-future-of-ai-native-ux" target="_blank">The WebDev Challenge, Future of AI-native UX</a></li>
 </ul>
 <h2 id="education">EDUCATION</h2>
-<p><strong>Bachelor of Science</strong>, Mathematics and Computer Science<br />
+<p><strong>Bachelor of Science</strong>, Mathematics and Computer Science (Cum Laude)<br />
 <strong>Bachelor of Arts</strong>, Literature and Writing (Cum Laude)<br />
 Northern Kentucky University | 1997</p>
 </body>
