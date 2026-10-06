@@ -23,7 +23,7 @@ Developer Relations leader who builds and scales developer communities for API-f
 - Launched the Algolia Discord from 0 to 2,000+ active developers in one year
 - Host Algolia DevCon, the annual developer conference, for five consecutive years (2026 edition on October 1), plus quarterly developer livestreams with 200-500 concurrent attendees
 - Built a reusable agentic demo platform, [TCG Search](https://alg.li/tcg-search), and deployed it at eight conferences in six months, including Microsoft Build, Gartner, Adobe Summit, Shoptalk and eTail, each in a week or less
-- Published agent-focused engineering content: "We rewrote the Algolia CLI for AI agents" (419 views, 4th most-viewed Algolia engineering post of the half) and "Chat, meet the Searchbox" (267 views)
+- Published agent-focused engineering content: "We rewrote the Algolia CLI for AI agents" (419 views, a top-five Algolia engineering blog post for February to August 2026) and "Chat, meet the Searchbox" (267 views)
 - Host live coding sessions with partners, cross-pollinating user communities, and built demo applications such as a video transcription search (avsearch)
 - Produced the Quick Start video embedded in the getting-started docs (811 views in its first month)
 - Claimed Algolia's library on Context7 and moved llms.txt to its canonical location so AI tools can read the docs
