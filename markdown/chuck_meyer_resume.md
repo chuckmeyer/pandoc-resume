@@ -27,7 +27,8 @@ Developer Relations leader who builds and scales developer communities for API-f
 - Host live coding sessions with partners, cross-pollinating user communities, and built demo applications such as a video transcription search (avsearch)
 - Produced the Quick Start video embedded in the getting-started docs (811 views in its first month)
 - Claimed Algolia's library on Context7 and moved llms.txt to its canonical location so AI tools can read the docs
-- Reviewed roughly 15 pieces of colleagues' content in six months, nearly all inside a week, and spoke to Algolia's Aspiring Managers Program on moving from IC to manager
+- Editor and coach for internal and external technical content, giving pre-publication feedback on blogs, tutorials and speaker sessions
+- Spoke to Algolia's Aspiring Managers Program on moving from IC to manager
 
 **Senior Engineer, Developer Relations and Integrations** | Bold Penguin | *March 2019 to August 2021*
 
