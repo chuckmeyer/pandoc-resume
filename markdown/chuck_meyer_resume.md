@@ -22,7 +22,7 @@ Developer Relations leader who builds and scales developer communities for API-f
 - Led the Algolia documentation migration from a homegrown platform to Mintlify with zero downtime
 - Launched the Algolia Discord from 0 to 2,000+ active developers in one year
 - Host Algolia DevCon, the annual developer conference, for five consecutive years (2026 edition on October 1), plus quarterly developer livestreams with 200-500 concurrent attendees
-- Built reusable demo platforms (TCG Search, SwagSearch) and deployed them at seven conferences in six months, including Adobe Summit, Shoptalk and eTail, each in a week or less
+- Built reusable demo platforms (TCG Search, SwagSearch) and deployed them at eight conferences in six months, including Microsoft Build, Adobe Summit, Shoptalk and eTail, each in a week or less
 - Published agent-focused engineering content: "We rewrote the Algolia CLI for AI agents" (419 views, 4th most-viewed Algolia engineering post of the half) and "Chat, meet the Searchbox" (267 views)
 - Host live coding sessions with partners, cross-pollinating user communities, and built demo applications such as a video transcription search (avsearch)
 - Produced the Quick Start video embedded in the getting-started docs (811 views in its first month)
