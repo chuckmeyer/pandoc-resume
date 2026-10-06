@@ -8,14 +8,14 @@
 
 ### PROFESSIONAL SUMMARY
 
-Developer Relations leader with experience building and scaling developer communities from the ground up. Proven track record launching community platforms (2,000+ member Discord), migrating technical documentation, and establishing developer advocacy programs that drive adoption of API-first platforms. Deep security expertise working with CISOs and enterprise security teams on cloud infrastructure and compliance frameworks.
+Developer Relations leader with experience building and scaling developer communities from the ground up. Proven track record launching community platforms (2,000+ member Discord), migrating technical documentation, and establishing developer advocacy programs that drive adoption of API-first platforms. Currently focused on developer experience for AI agents: building conversational search with MCP and tool-calling agents, and writing about agent-ready developer tooling. Deep security expertise working with CISOs and enterprise security teams on cloud infrastructure and compliance frameworks.
 
 ### CORE COMPETENCIES
 
 **Developer Community Building** - **Technical Documentation** - **API Integration & Support**  
 **JavaScript/React/Next.js** - **Python** - **Go** - **AWS Services & Security**  
 **DevOps/CI/CD** - **Developer Advocacy** - **Technical Writing** - **Public Speaking**  
-**AI/ML Integration** (MCP, Agentic Workflows) - **Security Architecture** - **Compliance Frameworks**
+**AI Agents** (MCP, Tool Use, Agentic Workflows, Evals) - **Security Architecture** - **Compliance Frameworks**
 
 ---
 
@@ -23,15 +23,21 @@ Developer Relations leader with experience building and scaling developer commun
 
 **Writing**
 
+- [We rewrote the Algolia CLI for AI agents](https://www.algolia.com/blog/engineering/we-rewrote-the-algolia-cli-for-ai-agents) - Algolia Engineering Blog, May 2026
+- [Chat, meet the Searchbox](https://www.algolia.com/blog/engineering/chat-meet-the-searchbox) - Algolia Engineering Blog, June 2026
+- [The Agent Factory: Building Consistent Agents at Scale](https://dev.to/chuckm/the-agent-factory-building-consistent-agents-at-scale-22an) - DEV Community, March 2026
+- [Building a JavaScript "Hello, World" MCP server in 2026](https://dev.to/chuckm/building-a-javascript-helloworld-mcp-server-in-2026-2lbc) - DEV Community, February 2026 (398 views, 8 reactions, 3 comments)
 - [Customizing Algolia React components with Tailwind classes](https://www.algolia.com/blog/engineering/customizing-algolia-react-components-with-tailwind-classes/) - Algolia Engineering Blog
 - [Feature Spotlight: Trends Models in Recommend](https://www.algolia.com/blog/engineering/feature-spotlight-trends-models-in-recommend/) - Algolia Engineering Blog  
 - [Git pre-commit validation of AWS CloudFormation templates](https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/) - AWS Management Tools Blog
+- More at [dev.to/chuckm](https://dev.to/chuckm)
 
 **Speaking & Presentations**
 
+- **DevRelCon 2026** - [Blog While the Context is Fresh](https://www.youtube.com/watch?v=sGjrVZcRkOg&list=PLcKOCtTONOAY&index=17)
 - **AWS re:Invent 2018** - [Deployment Scenarios with AWS CloudFormation](https://www.youtube.com/watch?v=X31kA1ANBVw)
 - **Search Relevance Panel** - [Finding out what's best](https://www.youtube.com/watch?v=B2TuVyl_GO4) with industry experts
-- **Lightning Talk** - [Agentic query understanding using search MPCs](https://www.youtube.com/watch?v=ogF4NnrrJwE&t=3006s)
+- **Haystack US 2025 Lightning Talk** - [Agentic query understanding using search MPCs](https://www.youtube.com/watch?v=ogF4NnrrJwE&t=3006s)
 
 **Community Engagement**
 
@@ -43,10 +49,17 @@ Developer Relations leader with experience building and scaling developer commun
 
 ### RECENT PROJECTS
 
+**Pokemon TCG Vending Machine Search** - [GitHub: algolia-samples/algolia-tcg-search](https://github.com/algolia-samples/algolia-tcg-search)  
+Full-stack conference-booth demo: a React/InstantSearch app with an Algolia Agent Studio chat agent (search tools, grouped-results rendering, evals), a card scanner, serverless claim APIs on Vercel with a Supabase backend, and Python tooling that stands up a new event's indices from a spreadsheet. Rebuilt around unified search and AI chat, as described in "Chat, meet the Searchbox".
+
+**Hello MCP** - [GitHub: chuckmeyer/hello-mcp](https://github.com/chuckmeyer/hello-mcp)  
+Minimal MCP server over Streamable HTTP demonstrating tools and resources, with a companion tutorial.
+
+**Agent Studio CLI** - [GitHub: algolia-samples/algolia-agent-cli](https://github.com/algolia-samples/algolia-agent-cli)  
+Standalone command-line tool for Algolia's Agent Studio, taken from idea to working tool in a week.
+
 **Video Transcription Search Application** - [GitHub: algolia-samples/avsearch](https://github.com/algolia-samples/avsearch)  
 Full-stack demo showcasing advanced search capabilities with video content indexing and real-time search insights.
-
-**AI-Powered Developer Workflows** - Implementing MCP (Model Context Protocol) and agentic workflows using n8n for automated developer support and community engagement.
 
 ---
 
@@ -63,14 +76,21 @@ Leading a cross-functional team of developer advocates, technical writers, and d
 **Key Achievements:**
 
 - **Launched Algolia Discord Server** from 0 to 2,000+ active developers in one year, creating primary community engagement channel
-- **Managing documentation migration** to Mintlify platform, improving developer onboarding experience
+- **Led documentation migration** to Mintlify with zero downtime, improving developer onboarding experience
 - **Organize and host quarterly Developer Livestream** with 200-500 concurrent attendance, driving product adoption and community growth
+- **Host Algolia DevCon**, the annual developer conference, for five consecutive years (2026 edition on October 1), tracking the shift from fusion ranking to RAG to production agents
 - **Host live coding sessions** with partners, creating product awareness by cross-pollinating user communites
+- **Published agent-focused engineering content** in 2026: "We rewrote the Algolia CLI for AI agents" drew 419 views and was the 4th most-viewed Algolia engineering post of the half; "Chat, meet the Searchbox" followed with 267 views
+- **Produced the Quick Start video** embedded in the getting-started docs, drawing 811 views in its first month
+- **Built reusable demo platforms** (TCG Search and SwagSearch) and deployed them at seven conferences in six months, including Adobe Summit, Shoptalk and eTail, each turned around in a week or less
+- **Claimed Algolia's library on Context7** and moved llms.txt to its canonical location to make the docs readable by AI tools
+- **Reviewed roughly 15 pieces of content** for colleagues in six months, nearly all inside a week
+- **Spoke to Algolia's Aspiring Managers Program** on the transition from IC to manager
 
 **Responsibilities:**
 
 - Built demo applications showcasing platform capabilities, including video transcription search solutions
-- Managed developer advocacy team and coordinated with product teams on new feature awareness
+- Managed the docs and developer advocacy teams (up to five direct reports) and coordinated with product teams on new feature awareness
 - Created technical content strategy spanning blogs, video tutorials, and conference presentations
 
 ---
