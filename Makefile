@@ -57,3 +57,18 @@ version:
 
 clean:
 	rm -f $(OUT_DIR)/*
+
+# Render PDFs from the compact HTML with headless Chrome (the ConTeXt "pdf" target is broken in the Docker image).
+# Run on the host after `make html STYLE=compact`, or use ./build-pdf.sh to do both.
+CHROME?=/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+pdf-chrome:
+	for f in $(IN_DIR)/*.md; do \
+		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
+		echo $$FILE_NAME.pdf; \
+		"$(CHROME)" --headless=new --disable-gpu --no-pdf-header-footer \
+			--print-to-pdf="$(CURDIR)/$(OUT_DIR)/$$FILE_NAME.pdf" \
+			"file://$(CURDIR)/$(OUT_DIR)/$$FILE_NAME.html" > /dev/null 2>&1; \
+	done
+
+.PHONY: pdf-chrome
