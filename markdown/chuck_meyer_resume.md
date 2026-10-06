@@ -39,7 +39,7 @@ Developer Relations leader who builds and scales developer communities for API-f
 **Senior Developer Advocate, AWS CloudFormation** | Amazon Web Services | *August 2017 to March 2019*
 
 - Reported to the service director and represented the developer community in service team planning, influencing the roadmap
-- Maintained CloudFormation's open source repositories, including [cfn-lint](https://github.com/aws-cloudformation/cfn-lint), the CloudFormation template linter, with an active contributor community
+- Maintained CloudFormation's open source repositories, including [cfn-lint](https://github.com/aws-cloudformation/cfn-lint), the CloudFormation template linter (2,600+ GitHub stars), with an active contributor community
 - Published best-practices content on the AWS management tools blog, including a guide to pre-commit validation with cfn-lint, and engaged enterprise customers at meetups and conferences on infrastructure as code
 
 **Security Solution Architect** | Amazon Web Services | *April 2016 to August 2017*
