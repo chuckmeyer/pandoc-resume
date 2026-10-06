@@ -149,10 +149,14 @@
   <![endif]-->
   <style type="text/css">
   /* Compact two-page variant of chmduquesne.css, tuned for printing to PDF. */
+  @font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-Regular.ttf"); font-weight: 400; font-style: normal; }
+  @font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-Italic.ttf"); font-weight: 400; font-style: italic; }
+  @font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-Bold.ttf"); font-weight: 700; font-style: normal; }
+  @font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-BoldItalic.ttf"); font-weight: 700; font-style: italic; }
   @page { size: Letter; margin: 0.45in 0.55in; }
 
   body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Geist", "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 10.5pt;
       line-height: 1.4;
       max-width: none;
@@ -168,7 +172,10 @@
       margin: 0 0 4pt 0;
   }
   header#title-block-header { display: none; }
-  h1 + p { text-align: center; margin: 0 0 6pt 0; }
+  .location { text-align: center; margin: 0 0 3pt 0; }
+  .contact { display: flex; justify-content: space-between; margin: 0 0 4pt 0; }
+  .contact p { margin: 0; }
+  .contact .right { text-align: right; }
 
   h2 {
       color: #397249;
@@ -191,7 +198,19 @@
 </head>
 <body>
 <h1 id="charles-chuck-meyer">CHARLES (CHUCK) MEYER</h1>
-<p>chuckmeyer@gmail.com | +1 (347) 419-0836 | Columbus, OH | <a href="https://github.com/chuckmeyer" target="_blank">github.com/chuckmeyer</a> | <a href="https://linkedin.com/in/chuckm" target="_blank">linkedin.com/in/chuckm</a></p>
+<div class="location">
+<p>Columbus, OH</p>
+</div>
+<div class="contact">
+<div class="left">
+<p>chuckmeyer@gmail.com<br />
++1 (347) 419-0836</p>
+</div>
+<div class="right">
+<p><a href="https://github.com/chuckmeyer" target="_blank">github.com/chuckmeyer</a><br />
+<a href="https://linkedin.com/in/chuckm" target="_blank">linkedin.com/in/chuckm</a></p>
+</div>
+</div>
 <h2 id="summary">SUMMARY</h2>
 <p>Developer Relations leader who builds and scales developer communities for API-first platforms: a 2,000+ member Discord, a zero-downtime docs migration, and five years hosting Algolia DevCon. Currently focused on developer experience for AI agents, building conversational search with MCP and tool-calling agents and writing about agent-ready developer tooling. Deep security background from advising CISOs on cloud infrastructure and compliance.</p>
 <h2 id="core-competencies">CORE COMPETENCIES</h2>

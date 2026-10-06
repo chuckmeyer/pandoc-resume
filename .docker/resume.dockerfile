@@ -13,6 +13,7 @@ RUN apt-get update && \
     wget \
     weasyprint \
     fonts-liberation \
+    fonts-inter \
     && rm -rf /var/lib/apt/lists/*
 RUN wget https://github.com/jgm/pandoc/releases/download/2.12/pandoc-2.12-1-arm64.deb
 RUN dpkg -i pandoc-2.12-1-arm64.deb  && rm pandoc-*.deb

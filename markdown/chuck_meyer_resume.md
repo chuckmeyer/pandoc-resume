@@ -1,6 +1,20 @@
 # CHARLES (CHUCK) MEYER
 
-chuckmeyer@gmail.com | +1 (347) 419-0836 | Columbus, OH | [github.com/chuckmeyer](https://github.com/chuckmeyer) | [linkedin.com/in/chuckm](https://linkedin.com/in/chuckm)
+::: location
+Columbus, OH
+:::
+
+:::: contact
+::: left
+chuckmeyer@gmail.com  
++1 (347) 419-0836
+:::
+
+::: right
+[github.com/chuckmeyer](https://github.com/chuckmeyer)  
+[linkedin.com/in/chuckm](https://linkedin.com/in/chuckm)
+:::
+::::
 
 ## SUMMARY
 

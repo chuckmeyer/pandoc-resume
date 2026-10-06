@@ -1,9 +1,13 @@
 <style type="text/css">
 /* Compact two-page variant of chmduquesne.css, tuned for printing to PDF. */
+@font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-Regular.ttf"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-Italic.ttf"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-Bold.ttf"); font-weight: 700; font-style: normal; }
+@font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-BoldItalic.ttf"); font-weight: 700; font-style: italic; }
 @page { size: Letter; margin: 0.45in 0.55in; }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Geist", "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 10.5pt;
     line-height: 1.4;
     max-width: none;
@@ -19,7 +23,10 @@ h1 {
     margin: 0 0 4pt 0;
 }
 header#title-block-header { display: none; }
-h1 + p { text-align: center; margin: 0 0 6pt 0; }
+.location { text-align: center; margin: 0 0 3pt 0; }
+.contact { display: flex; justify-content: space-between; margin: 0 0 4pt 0; }
+.contact p { margin: 0; }
+.contact .right { text-align: right; }
 
 h2 {
     color: #397249;
