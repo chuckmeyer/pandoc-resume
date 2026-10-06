@@ -11,7 +11,8 @@ RUN apt-get update && \
     apt-get install -y \
     build-essential \
     wget \
-    context \
+    weasyprint \
+    fonts-liberation \
     && rm -rf /var/lib/apt/lists/*
 RUN wget https://github.com/jgm/pandoc/releases/download/2.12/pandoc-2.12-1-arm64.deb
 RUN dpkg -i pandoc-2.12-1-arm64.deb  && rm pandoc-*.deb

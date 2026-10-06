@@ -1,20 +1,15 @@
 OUT_DIR=output
 IN_DIR=markdown
 STYLES_DIR=styles
-STYLE=chmduquesne
+STYLE=compact
 
 all: html pdf docx rtf
 
-pdf: init
+pdf: html
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.pdf; \
-		pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex \
-			--from markdown --to context \
-			--variable pretolerance=10000 \
-			--variable papersize=A4 \
-			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
-		mtxrun --path=$(OUT_DIR) --result=$$FILE_NAME.pdf --script context $$FILE_NAME.tex > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
+		weasyprint $(OUT_DIR)/$$FILE_NAME.html $(OUT_DIR)/$$FILE_NAME.pdf; \
 	done
 
 html: init
@@ -57,18 +52,3 @@ version:
 
 clean:
 	rm -f $(OUT_DIR)/*
-
-# Render PDFs from the compact HTML with headless Chrome (the ConTeXt "pdf" target is broken in the Docker image).
-# Run on the host after `make html STYLE=compact`, or use ./build-pdf.sh to do both.
-CHROME?=/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-
-pdf-chrome:
-	for f in $(IN_DIR)/*.md; do \
-		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
-		echo $$FILE_NAME.pdf; \
-		"$(CHROME)" --headless=new --disable-gpu --no-pdf-header-footer \
-			--print-to-pdf="$(CURDIR)/$(OUT_DIR)/$$FILE_NAME.pdf" \
-			"file://$(CURDIR)/$(OUT_DIR)/$$FILE_NAME.html" > /dev/null 2>&1; \
-	done
-
-.PHONY: pdf-chrome
