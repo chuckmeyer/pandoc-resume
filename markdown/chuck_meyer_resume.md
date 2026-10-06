@@ -37,7 +37,7 @@ Developer Relations leader with experience building and scaling developer commun
 - **DevRelCon 2026** - [Blog While the Context is Fresh](https://www.youtube.com/watch?v=sGjrVZcRkOg&list=PLcKOCtTONOAY&index=17)
 - **AWS re:Invent 2018** - [Deployment Scenarios with AWS CloudFormation](https://www.youtube.com/watch?v=X31kA1ANBVw)
 - **Search Relevance Panel** - [Finding out what's best](https://www.youtube.com/watch?v=B2TuVyl_GO4) with industry experts
-- **Haystack US 2025 Lightning Talk** - [Agentic query understanding using search MPCs](https://www.youtube.com/watch?v=ogF4NnrrJwE&t=3006s)
+- **Haystack US 2025 Lightning Talk** - [Agentic query understanding using search MCPs](https://www.youtube.com/watch?v=ogF4NnrrJwE&t=3006s)
 
 **Community Engagement**
 
