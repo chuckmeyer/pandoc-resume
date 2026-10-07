@@ -24,7 +24,7 @@ Developer Relations leader for small, embedded teams. At each company I look for
 
 **AI Agents** (MCP, Tool Use, Evals, multi-model; Algolia Agent Studio) · **Claude Code**  
 **Developer Community** · **Documentation** · **Technical Content** · **Public Speaking**  
-**JavaScript/React** · **Python** · **Go** · **AWS** · **Security & Compliance**
+**JavaScript/React** · **Python** · **Go** · **AWS**
 
 ## EXPERIENCE
 
@@ -33,8 +33,9 @@ Developer Relations leader for small, embedded teams. At each company I look for
 
 - Lead the docs and developer advocacy teams (up to five direct reports) for Algolia's API-first search platform
 - Led the documentation migration from a homegrown platform to Mintlify with zero downtime, then made the docs readable by agents with llms.txt and Algolia's library on Context7
-- Wrote the engineering post showing the rebuilt Algolia CLI is agent-ready, mapping its schema introspection, structured output, dry-run validation and scoped auth to published agent-first CLI design principles (a top-five Algolia engineering blog post for February to August 2026)
-- Built [TCG Search](https://alg.li/tcg-search), a reusable demo where a multi-modal agent answers from the same Algolia retrieval layer as site search, showing why embedded agents need fast retrieval; deployed at eight conferences (Microsoft Build, Gartner, Adobe Summit and more), each in a week or less, with 733 cards claimed
+- Wrote the engineering post mapping the rebuilt Algolia CLI's agent-ready features (schema introspection, structured output, dry-run, scoped auth) to agent-first design principles, a top-five Algolia engineering post for February to August 2026
+- Built the [Agent Studio CLI](https://github.com/algolia-samples/algolia-agent-cli), a tool for creating, snapshotting, updating and publishing Algolia agents from version-controlled config, from idea to working tool in a week
+- Built [TCG Search](https://alg.li/tcg-search), a reusable booth demo where a multi-modal agent answers from the same Algolia index as site search, showing why embedded agents need fast retrieval; deployed at eight conferences, including Microsoft Build, Gartner and Adobe Summit, each in a week or less, with 733 cards claimed
 - Launched the Algolia Discord from 0 to 2,000+ developers in a year; host Algolia DevCon, the annual developer conference, for five years, plus quarterly livestreams of 200-500 attendees
 - Run live coding sessions, hackathons (with dev.to, Code & Coffee and Hackernoon) and the Quick Start video embedded in the getting-started docs
 
@@ -48,23 +49,20 @@ Developer Relations leader for small, embedded teams. At each company I look for
 
 - Reported to the service director and represented the developer community in service team planning, influencing the roadmap
 - One of the two founding developers of [cfn-lint](https://github.com/aws-cloudformation/cfn-lint), the open source CloudFormation template linter (2,600+ GitHub stars, 11M+ monthly PyPI downloads today), including commissioning its logo and launch stickers
-- Maintained CloudFormation's other open source repositories with an active contributor community
-- Published best-practices content on the AWS management tools blog, including a guide to pre-commit validation with cfn-lint, and engaged enterprise customers at meetups and conferences on infrastructure as code
+- Maintained CloudFormation's other open source repositories, published best-practices content on the AWS management tools blog (including a guide to pre-commit validation with cfn-lint), and engaged enterprise customers at meetups and conferences
 
 **Security Solution Architect** | Amazon Web Services | *April 2016 to August 2017*
 
-- Advised CISOs and security practitioners across North America on security posture, and on PCI, HIPAA and SOC compliance in the cloud
-- Reviewed customer network topologies and created AWS security labs for bootcamps, summits and loft events
+- Advised CISOs and security teams across North America on cloud security posture and PCI, HIPAA and SOC compliance, and created AWS security labs for bootcamps and summits
 
 **Senior Professional Services Consultant** | Amazon Web Services | *July 2013 to April 2016*
 
-- Migrated large enterprises to AWS and integrated with on-premises systems through secure, repeatable deployments
-- Built PCI-compliant infrastructure with Elastic Beanstalk, Packer, Puppet and CloudFormation, and a CI/CD pipeline for IAM governance with CodePipeline, Ansible and CloudFormation
+- Migrated large enterprises to AWS through secure, repeatable CI/CD, including PCI-compliant infrastructure and IAM governance pipelines
 
 ## SELECTED PROJECTS
 
 - [**Pokemon TCG Vending Machine Search**](https://github.com/algolia-samples/algolia-tcg-search): conference-booth demo of a multi-modal chat agent grounded in the same index that powers search, built with React/InstantSearch, Agent Studio with evals, a card scanner, and serverless APIs on Vercel and Supabase
-- [**Agent Studio CLI**](https://github.com/algolia-samples/algolia-agent-cli): command-line tool for Algolia Agent Studio, from idea to working tool in a week
+- [**Agent Studio CLI**](https://github.com/algolia-samples/algolia-agent-cli): command-line tool to create, snapshot, update and publish Agent Studio agents from version-controlled config, with `--json` output for scripts and agents
 - [**Video Transcription Search**](https://github.com/algolia-samples/avsearch): full-stack demo of video content indexing with real-time search insights
 - [**Hello MCP**](https://github.com/chuckmeyer/hello-mcp): minimal MCP server over Streamable HTTP, with a companion tutorial
 
