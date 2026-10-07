@@ -34,8 +34,8 @@ Developer Relations leader for small, embedded teams. At each company I look for
 - Lead the docs and developer advocacy teams (up to five direct reports) under Algolia's Growth team
 - Led the documentation migration from a homegrown platform to Mintlify with zero downtime, then made the docs readable by agents with llms.txt and Algolia's library on Context7
 - Wrote the post mapping the rebuilt Algolia CLI to agent-first design principles, a top-five Algolia engineering post for February to August 2026
-- Built the [Agent Studio CLI](https://github.com/algolia-samples/algolia-agent-cli), a tool for creating, snapshotting, updating and publishing Algolia agents from version-controlled config, in a week
-- Built [TCG Search](https://alg.li/tcg-search), a booth demo where a multi-modal agent answers from the same Algolia index as site search, showing why embedded agents need fast retrieval
+- Built the [Agent Studio CLI](https://github.com/algolia-samples/algolia-agent-cli), a tool for creating, snapshotting, updating and publishing Algolia agents from version-controlled config
+- Built [TCG Search](https://alg.li/tcg-search), a Pokemon-card vending machine booth demo where a multi-modal agent answers from the same Algolia index as site search, showing why embedded agents need fast retrieval
     - Deployed at eight conferences (Microsoft Build, Gartner, Adobe Summit, eTail)
     - 733 total cards claimed
 - Launched the Algolia Discord from 0 to 2,000+ developers in a year
@@ -52,7 +52,7 @@ Developer Relations leader for small, embedded teams. At each company I look for
 
 **Senior Developer Advocate, AWS CloudFormation** | Amazon Web Services | *August 2017 to March 2019*
 
-- Reported to the service director and represented the developer community in service team planning, influencing the roadmap
+- Reported to the service director and represented the developer community in service team planning, prioritizing service support
 - One of the two founding developers of [cfn-lint](https://github.com/aws-cloudformation/cfn-lint), the open source CloudFormation template linter now at 2,600+ GitHub stars and 11M+ monthly PyPI downloads; commissioned its logo and launch stickers
 - Published best-practices content on the AWS management tools blog, including a guide to pre-commit validation with cfn-lint, and engaged enterprise customers at meetups and conferences
 
@@ -66,8 +66,6 @@ Developer Relations leader for small, embedded teams. At each company I look for
 
 ## SELECTED PROJECTS
 
-- [**Pokemon TCG Vending Machine Search**](https://github.com/algolia-samples/algolia-tcg-search): React/InstantSearch app with an Agent Studio chat agent and evals, a card scanner, and Vercel and Supabase APIs
-- [**Agent Studio CLI**](https://github.com/algolia-samples/algolia-agent-cli): command-line tool for creating and publishing Agent Studio agents, with `--json` output
 - [**Video Transcription Search**](https://github.com/algolia-samples/avsearch): full-stack demo of video content indexing with real-time search insights
 - [**Hello MCP**](https://github.com/chuckmeyer/hello-mcp): minimal MCP server over Streamable HTTP, with a companion tutorial
 
@@ -78,7 +76,7 @@ Developer Relations leader for small, embedded teams. At each company I look for
 - [We rewrote the Algolia CLI for AI agents](https://www.algolia.com/blog/engineering/we-rewrote-the-algolia-cli-for-ai-agents)
 - [Chat, meet the Searchbox](https://www.algolia.com/blog/engineering/chat-meet-the-searchbox)
 - [Building a JavaScript "Hello, World" MCP server](https://dev.to/chuckm/building-a-javascript-helloworld-mcp-server-in-2026-2lbc) (my best-performing dev.to post since 2022)
-- [Git pre-commit validation of CloudFormation templates](https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/) (AWS). More at [dev.to/chuckm](https://dev.to/chuckm)
+- [Git pre-commit validation of CloudFormation templates](https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/) (AWS)
 
 **Speaking**
 
