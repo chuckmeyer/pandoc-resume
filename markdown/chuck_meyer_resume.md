@@ -66,6 +66,8 @@ Developer Relations leader for small, embedded teams. At each company I look for
 
 ## SELECTED PROJECTS
 
+- [**Pokemon TCG Vending Machine Search**](https://github.com/algolia-samples/algolia-tcg-search): React/InstantSearch app with an Agent Studio chat agent and evals, a card scanner, and Vercel and Supabase APIs
+- [**Agent Studio CLI**](https://github.com/algolia-samples/algolia-agent-cli): command-line tool for creating and publishing Agent Studio agents, with `--json` output
 - [**Video Transcription Search**](https://github.com/algolia-samples/avsearch): full-stack demo of video content indexing with real-time search insights
 - [**Hello MCP**](https://github.com/chuckmeyer/hello-mcp): minimal MCP server over Streamable HTTP, with a companion tutorial
 
