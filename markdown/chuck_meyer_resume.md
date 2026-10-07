@@ -31,7 +31,7 @@ Developer Relations leader for small, embedded teams. At each company I look for
 **Senior Manager, Developer Relations** | Algolia | *August 2025 to present*  
 **Lead Developer Advocate** | Algolia | *August 2021 to August 2025*
 
-- Lead the docs and developer advocacy teams (up to five direct reports) under Algolia's Growth team
+- Player-coach for the docs and developer advocacy teams (up to five reports) under Algolia's Growth team: weekly 1:1s, content reviews and coaching, quarterly planning and reporting, and the annual review cycle, while shipping the work below
 - Led the documentation migration from a homegrown platform to Mintlify with zero downtime, then made the docs readable by agents with llms.txt and Algolia's library on Context7
 - Wrote the post mapping the rebuilt Algolia CLI to agent-first design principles, a top-five Algolia engineering post for February to August 2026
 - Built the [Agent Studio CLI](https://github.com/algolia-samples/algolia-agent-cli), a tool for creating, snapshotting, updating and publishing Algolia agents from version-controlled config
