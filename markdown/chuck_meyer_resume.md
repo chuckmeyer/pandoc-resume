@@ -41,7 +41,7 @@ Developer Relations leader for small, embedded teams. At each company I look for
 - Launched the Algolia Discord from 0 to 2,000+ developers in a year
 - Host Algolia DevCon, the annual developer conference, for five years, plus quarterly livestreams of 200-500 attendees
 - Ran live coding sessions and hackathons (with dev.to, Code & Coffee and Hackernoon)
-- Produced Quick Start videos for multiple use cases, including the one embedded in the getting-started docs
+- Produced Quick Start videos for multiple use cases in the Algolia documentation
 
 **Senior Engineer, Developer Relations and Integrations** | Bold Penguin | *March 2019 to August 2021*
 
