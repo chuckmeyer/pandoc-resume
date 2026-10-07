@@ -18,7 +18,7 @@ chuckmeyer@gmail.com
 
 ## SUMMARY
 
-Developer Relations leader for small, embedded teams. At each company I look for the biggest gap between the product and the developers using it, then build what closes it. That's cfn-lint, a CloudFormation linter now downloaded 11M+ times a month; a partner integration portal that cut onboarding calls from about 90 to 30 minutes; and, at Algolia, tooling and docs that work for agents as well as people. Then I prove it in the open, working alongside the community through live coding, hackathons and demos.
+Player-coach Developer Relations leader for small, embedded teams. At each company I look for the biggest gap between the product and the developers using it, then build what closes it. That's cfn-lint, a CloudFormation linter now downloaded 11M+ times a month; a partner integration portal that cut onboarding calls from about 90 to 30 minutes; and, at Algolia, tooling and docs that work for agents as well as people. Then I prove it in the open, working alongside the community through live coding, hackathons and demos.
 
 ## CORE COMPETENCIES
 
@@ -31,7 +31,7 @@ Developer Relations leader for small, embedded teams. At each company I look for
 **Senior Manager, Developer Relations** | Algolia | *August 2025 to present*  
 **Lead Developer Advocate** | Algolia | *August 2021 to August 2025*
 
-- Player-coach for the docs and developer advocacy teams (up to five reports) under Algolia's Growth team: weekly 1:1s, content reviews and coaching, quarterly planning and reporting, and the annual review cycle, while shipping the work below
+- Player-coach for the docs and developer advocacy teams (up to five reports) under Algolia's Growth team: weekly 1:1s, content reviews and coaching, quarterly planning and reporting, and the annual review cycle, building alongside the team on docs, agent tooling and demos
 - Led the documentation migration from a homegrown platform to Mintlify with zero downtime, then made the docs readable by agents with llms.txt and Algolia's library on Context7
 - Wrote the post mapping the rebuilt Algolia CLI to agent-first design principles, a top-five Algolia engineering post for February to August 2026
 - Built the [Agent Studio CLI](https://github.com/algolia-samples/algolia-agent-cli), a tool for creating, snapshotting, updating and publishing Algolia agents from version-controlled config
