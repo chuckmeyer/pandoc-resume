@@ -53,7 +53,6 @@ Developer Relations leader for small, embedded teams. At each company I look for
 
 - Reported to the service director and represented the developer community in service team planning, influencing the roadmap
 - One of the two founding developers of [cfn-lint](https://github.com/aws-cloudformation/cfn-lint), the open source CloudFormation template linter now at 2,600+ GitHub stars and 11M+ monthly PyPI downloads; commissioned its logo and launch stickers
-- Maintained CloudFormation's other open source repositories with an active contributor community
 - Published best-practices content on the AWS management tools blog, including a guide to pre-commit validation with cfn-lint, and engaged enterprise customers at meetups and conferences
 
 **Security Solution Architect** | Amazon Web Services | *April 2016 to August 2017*
