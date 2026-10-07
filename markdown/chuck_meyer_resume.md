@@ -92,4 +92,4 @@ Player-coach Developer Relations leader for small, embedded teams. At each compa
 
 **Bachelor of Science**, Mathematics and Computer Science (Cum Laude)  
 **Bachelor of Arts**, Literature and Writing (Cum Laude)  
-Northern Kentucky University | 1997
+Northern Kentucky University
