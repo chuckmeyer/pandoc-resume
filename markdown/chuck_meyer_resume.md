@@ -70,9 +70,21 @@ Developer Relations leader for small, embedded teams. At each company I look for
 
 ## WRITING AND SPEAKING
 
-- **Writing:** [We rewrote the Algolia CLI for AI agents](https://www.algolia.com/blog/engineering/we-rewrote-the-algolia-cli-for-ai-agents), [Chat, meet the Searchbox](https://www.algolia.com/blog/engineering/chat-meet-the-searchbox), [The Agent Factory](https://dev.to/chuckm/the-agent-factory-building-consistent-agents-at-scale-22an), [Building a JavaScript "Hello, World" MCP server](https://dev.to/chuckm/building-a-javascript-helloworld-mcp-server-in-2026-2lbc) (my best-performing dev.to post since 2022), [Git pre-commit validation of CloudFormation templates](https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/). More at [dev.to/chuckm](https://dev.to/chuckm)
-- **Talks:** [DevRelCon 2026, Blog While the Context is Fresh](https://www.youtube.com/watch?v=sGjrVZcRkOg&list=PLcKOCtTONOAY&index=17) · [Haystack US 2025, Agentic query understanding using search MCPs](https://www.youtube.com/watch?v=ogF4NnrrJwE&t=3006s) · [AWS re:Invent 2018, Deployment Scenarios with AWS CloudFormation](https://www.youtube.com/watch?v=X31kA1ANBVw) (11,000+ views)
-- **Live coding:** [Adding search insights to InstantSearch applications](https://www.youtube.com/watch?v=AXkWMaPceoE&list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&index=17) (2,000+ views) · [The WebDev Challenge, Future of AI-native UX](https://codetv.dev/series/web-dev-challenge/s2/e6-future-of-ai-native-ux)
+**Writing**
+
+- [We rewrote the Algolia CLI for AI agents](https://www.algolia.com/blog/engineering/we-rewrote-the-algolia-cli-for-ai-agents)
+- [Chat, meet the Searchbox](https://www.algolia.com/blog/engineering/chat-meet-the-searchbox)
+- [The Agent Factory](https://dev.to/chuckm/the-agent-factory-building-consistent-agents-at-scale-22an)
+- [Building a JavaScript "Hello, World" MCP server](https://dev.to/chuckm/building-a-javascript-helloworld-mcp-server-in-2026-2lbc) (my best-performing dev.to post since 2022)
+- [Git pre-commit validation of CloudFormation templates](https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/) (AWS). More at [dev.to/chuckm](https://dev.to/chuckm)
+
+**Speaking**
+
+- [DevRelCon 2026, Blog While the Context is Fresh](https://www.youtube.com/watch?v=sGjrVZcRkOg&list=PLcKOCtTONOAY&index=17)
+- [Haystack US 2025, Agentic query understanding using search MCPs](https://www.youtube.com/watch?v=ogF4NnrrJwE&t=3006s)
+- [AWS re:Invent 2018, Deployment Scenarios with AWS CloudFormation](https://www.youtube.com/watch?v=X31kA1ANBVw) (11,000+ views)
+- [Live coding: Adding search insights to InstantSearch applications](https://www.youtube.com/watch?v=AXkWMaPceoE&list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&index=17) (2,000+ views)
+- [The WebDev Challenge, Future of AI-native UX](https://codetv.dev/series/web-dev-challenge/s2/e6-future-of-ai-native-ux)
 
 ## EDUCATION
 
