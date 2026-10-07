@@ -18,7 +18,7 @@ chuckmeyer@gmail.com
 
 ## SUMMARY
 
-Developer Relations leader for small, embedded teams. At each company I look for the biggest gap between the product and the developers using it, then build what closes it. That's cfn-lint, a CloudFormation linter now downloaded 11M+ times a month; a partner integration portal that cut onboarding calls from about 90 to 30 minutes; and, at Algolia, tooling and docs that work for agents as well as people. Then I work alongside the community, through live coding, hackathons and demos, to show it works.
+Developer Relations leader for small, embedded teams. At each company I look for the biggest gap between the product and the developers using it, then build what closes it. That's cfn-lint, a CloudFormation linter now downloaded 11M+ times a month; a partner integration portal that cut onboarding calls from about 90 to 30 minutes; and, at Algolia, tooling and docs that work for agents as well as people. Then I prove it in the open, working alongside the community through live coding, hackathons and demos.
 
 ## CORE COMPETENCIES
 
@@ -35,7 +35,7 @@ Developer Relations leader for small, embedded teams. At each company I look for
 - Led the documentation migration from a homegrown platform to Mintlify with zero downtime, then made the docs readable by agents with llms.txt and Algolia's library on Context7
 - Wrote the post mapping the rebuilt Algolia CLI to agent-first design principles, a top-five Algolia engineering post for February to August 2026
 - Built the [Agent Studio CLI](https://github.com/algolia-samples/algolia-agent-cli), a tool for creating, snapshotting, updating and publishing Algolia agents from version-controlled config
-- Built [TCG Search](https://alg.li/tcg-search), a Pokemon-card vending machine booth demo where a multi-modal agent answers from the same Algolia index as site search, showing why embedded agents need fast retrieval
+- Built [TCG Search](https://alg.li/tcg-search), a Pokémon-card vending machine booth demo where a multi-modal agent answers from the same Algolia index as site search, showing why embedded agents need fast retrieval
     - Deployed at eight conferences (Microsoft Build, Gartner, Adobe Summit, eTail)
     - 733 total cards claimed
 - Launched the Algolia Discord from 0 to 2,000+ developers in a year
@@ -66,7 +66,7 @@ Developer Relations leader for small, embedded teams. At each company I look for
 
 ## SELECTED PROJECTS
 
-- [**Pokemon TCG Vending Machine Search**](https://github.com/algolia-samples/algolia-tcg-search): React/InstantSearch app with an Agent Studio chat agent and evals, a card scanner, and Vercel and Supabase APIs
+- [**Pokémon TCG Vending Machine Search**](https://github.com/algolia-samples/algolia-tcg-search): React/InstantSearch app with an Agent Studio chat agent and evals, a card scanner, and Vercel and Supabase APIs
 - [**Agent Studio CLI**](https://github.com/algolia-samples/algolia-agent-cli): command-line tool for creating and publishing Agent Studio agents, with `--json` output
 - [**Video Transcription Search**](https://github.com/algolia-samples/avsearch): full-stack demo of video content indexing with real-time search insights
 - [**Hello MCP**](https://github.com/chuckmeyer/hello-mcp): minimal MCP server over Streamable HTTP, with a companion tutorial
@@ -75,10 +75,10 @@ Developer Relations leader for small, embedded teams. At each company I look for
 
 **Writing**
 
-- [We rewrote the Algolia CLI for AI agents](https://www.algolia.com/blog/engineering/we-rewrote-the-algolia-cli-for-ai-agents)
-- [Chat, meet the Searchbox](https://www.algolia.com/blog/engineering/chat-meet-the-searchbox)
-- [Building a JavaScript "Hello, World" MCP server](https://dev.to/chuckm/building-a-javascript-helloworld-mcp-server-in-2026-2lbc) (my best-performing dev.to post since 2022)
-- [Git pre-commit validation of CloudFormation templates](https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/) (AWS)
+- [We rewrote the Algolia CLI for AI agents](https://www.algolia.com/blog/engineering/we-rewrote-the-algolia-cli-for-ai-agents) (2026)
+- [Chat, meet the Searchbox](https://www.algolia.com/blog/engineering/chat-meet-the-searchbox) (2026)
+- [Building a JavaScript "Hello, World" MCP server](https://dev.to/chuckm/building-a-javascript-helloworld-mcp-server-in-2026-2lbc) (2026, my best-performing dev.to post since 2022)
+- [Git pre-commit validation of CloudFormation templates](https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/) (AWS, 2019)
 
 **Speaking**
 
