@@ -41,9 +41,9 @@ Developer Relations leader for small, embedded teams. At each company I look for
 
 **Senior Engineer, Developer Relations and Integrations** | Bold Penguin | *March 2019 to August 2021*
 
-- Built the Developers Portal that streamlined partner onboarding, and maintained the product documentation for integration partners from single agencies to large enterprises
-- Advocated for partner-requested enhancements with product teams, improving API usability
-- Wrote coding examples and best practices for integration partners
+- Took partner documentation from nothing (a few snippets emailed to partners) to a published reference for the Exchange API, generated from an OpenAPI spec
+- Built the code samples, integration guides and Developers Portal that let partners from single agencies to large enterprises integrate with less hand-holding, cutting the typical Exchange onboarding call from about 90 to 30 minutes
+- Advocated for partner-requested API enhancements with product teams, improving usability
 
 **Senior Developer Advocate, AWS CloudFormation** | Amazon Web Services | *August 2017 to March 2019*
 
