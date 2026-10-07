@@ -74,7 +74,6 @@ Developer Relations leader for small, embedded teams. At each company I look for
 
 - [We rewrote the Algolia CLI for AI agents](https://www.algolia.com/blog/engineering/we-rewrote-the-algolia-cli-for-ai-agents)
 - [Chat, meet the Searchbox](https://www.algolia.com/blog/engineering/chat-meet-the-searchbox)
-- [The Agent Factory](https://dev.to/chuckm/the-agent-factory-building-consistent-agents-at-scale-22an)
 - [Building a JavaScript "Hello, World" MCP server](https://dev.to/chuckm/building-a-javascript-helloworld-mcp-server-in-2026-2lbc) (my best-performing dev.to post since 2022)
 - [Git pre-commit validation of CloudFormation templates](https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/) (AWS). More at [dev.to/chuckm](https://dev.to/chuckm)
 
