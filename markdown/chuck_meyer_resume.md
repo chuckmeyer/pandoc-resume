@@ -1,4 +1,4 @@
-# CHARLES (CHUCK) MEYER
+# CHUCK MEYER
 
 ::: location
 Columbus, OH
