@@ -18,7 +18,7 @@ chuckmeyer@gmail.com
 
 ## SUMMARY
 
-Developer Relations leader for small, embedded teams. At each company I look for the biggest gap between the product and the developers using it, then build what closes it: cfn-lint, a CloudFormation linter now downloaded 11M+ times a month; a partner integration portal; and, at Algolia, tooling and docs that work for agents as well as people. Then I work alongside the community, through live coding, hackathons and demos, to show it works.
+Developer Relations leader for small, embedded teams. At each company I look for the biggest gap between the product and the developers using it, then build what closes it. That's cfn-lint, a CloudFormation linter now downloaded 11M+ times a month; a partner integration portal that cut onboarding calls from about 90 to 30 minutes; and, at Algolia, tooling and docs that work for agents as well as people. Then I work alongside the community, through live coding, hackathons and demos, to show it works.
 
 ## CORE COMPETENCIES
 
@@ -33,23 +33,27 @@ Developer Relations leader for small, embedded teams. At each company I look for
 
 - Lead the docs and developer advocacy teams (up to five direct reports) for Algolia's API-first search platform
 - Led the documentation migration from a homegrown platform to Mintlify with zero downtime, then made the docs readable by agents with llms.txt and Algolia's library on Context7
-- Wrote the engineering post mapping the rebuilt Algolia CLI's agent-ready features (schema introspection, structured output, dry-run, scoped auth) to agent-first design principles, a top-five Algolia engineering post for February to August 2026
-- Built the [Agent Studio CLI](https://github.com/algolia-samples/algolia-agent-cli), a tool for creating, snapshotting, updating and publishing Algolia agents from version-controlled config, from idea to working tool in a week
-- Built [TCG Search](https://alg.li/tcg-search), a reusable booth demo where a multi-modal agent answers from the same Algolia index as site search, showing why embedded agents need fast retrieval; deployed at eight conferences, including Microsoft Build, Gartner and Adobe Summit, each in a week or less, with 733 cards claimed
-- Launched the Algolia Discord from 0 to 2,000+ developers in a year; host Algolia DevCon, the annual developer conference, for five years, plus quarterly livestreams of 200-500 attendees
+- Wrote the post mapping the rebuilt Algolia CLI to agent-first design principles, a top-five Algolia engineering post for February to August 2026
+- Built the [Agent Studio CLI](https://github.com/algolia-samples/algolia-agent-cli), a tool for creating, snapshotting, updating and publishing Algolia agents from version-controlled config, in a week
+- Built [TCG Search](https://alg.li/tcg-search), a booth demo where a multi-modal agent answers from the same Algolia index as site search, showing why embedded agents need fast retrieval
+- Deployed it at eight conferences, including Microsoft Build, Gartner and Adobe Summit, with 733 total cards claimed
+- Launched the Algolia Discord from 0 to 2,000+ developers in a year
+- Host Algolia DevCon, the annual developer conference, for five years, plus quarterly livestreams of 200-500 attendees
 - Run live coding sessions, hackathons (with dev.to, Code & Coffee and Hackernoon) and the Quick Start video embedded in the getting-started docs
 
 **Senior Engineer, Developer Relations and Integrations** | Bold Penguin | *March 2019 to August 2021*
 
 - Took partner documentation from nothing (a few snippets emailed to partners) to a published reference for the Exchange API, generated from an OpenAPI spec
-- Built the code samples, integration guides and Developers Portal that let partners from single agencies to large enterprises integrate with less hand-holding, cutting the typical Exchange onboarding call from about 90 to 30 minutes
+- Built the code samples, integration guides and Developers Portal for partners from single agencies to large enterprises
+- Cut the typical Exchange onboarding call from about 90 to 30 minutes
 - Advocated for partner-requested API enhancements with product teams, improving usability
 
 **Senior Developer Advocate, AWS CloudFormation** | Amazon Web Services | *August 2017 to March 2019*
 
 - Reported to the service director and represented the developer community in service team planning, influencing the roadmap
-- One of the two founding developers of [cfn-lint](https://github.com/aws-cloudformation/cfn-lint), the open source CloudFormation template linter (2,600+ GitHub stars, 11M+ monthly PyPI downloads today), including commissioning its logo and launch stickers
-- Maintained CloudFormation's other open source repositories, published best-practices content on the AWS management tools blog (including a guide to pre-commit validation with cfn-lint), and engaged enterprise customers at meetups and conferences
+- One of the two founding developers of [cfn-lint](https://github.com/aws-cloudformation/cfn-lint), the open source CloudFormation template linter now at 2,600+ GitHub stars and 11M+ monthly PyPI downloads; commissioned its logo and launch stickers
+- Maintained CloudFormation's other open source repositories with an active contributor community
+- Published best-practices content on the AWS management tools blog, including a guide to pre-commit validation with cfn-lint, and engaged enterprise customers at meetups and conferences
 
 **Security Solution Architect** | Amazon Web Services | *April 2016 to August 2017*
 
@@ -61,8 +65,8 @@ Developer Relations leader for small, embedded teams. At each company I look for
 
 ## SELECTED PROJECTS
 
-- [**Pokemon TCG Vending Machine Search**](https://github.com/algolia-samples/algolia-tcg-search): conference-booth demo of a multi-modal chat agent grounded in the same index that powers search, built with React/InstantSearch, Agent Studio with evals, a card scanner, and serverless APIs on Vercel and Supabase
-- [**Agent Studio CLI**](https://github.com/algolia-samples/algolia-agent-cli): command-line tool to create, snapshot, update and publish Agent Studio agents from version-controlled config, with `--json` output for scripts and agents
+- [**Pokemon TCG Vending Machine Search**](https://github.com/algolia-samples/algolia-tcg-search): React/InstantSearch app with an Agent Studio chat agent and evals, a card scanner, and Vercel and Supabase APIs
+- [**Agent Studio CLI**](https://github.com/algolia-samples/algolia-agent-cli): command-line tool for creating and publishing Agent Studio agents, with `--json` output
 - [**Video Transcription Search**](https://github.com/algolia-samples/avsearch): full-stack demo of video content indexing with real-time search insights
 - [**Hello MCP**](https://github.com/chuckmeyer/hello-mcp): minimal MCP server over Streamable HTTP, with a companion tutorial
 
