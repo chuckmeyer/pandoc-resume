@@ -36,7 +36,8 @@ Developer Relations leader for small, embedded teams. At each company I look for
 - Wrote the post mapping the rebuilt Algolia CLI to agent-first design principles, a top-five Algolia engineering post for February to August 2026
 - Built the [Agent Studio CLI](https://github.com/algolia-samples/algolia-agent-cli), a tool for creating, snapshotting, updating and publishing Algolia agents from version-controlled config, in a week
 - Built [TCG Search](https://alg.li/tcg-search), a booth demo where a multi-modal agent answers from the same Algolia index as site search, showing why embedded agents need fast retrieval
-- Deployed it at eight conferences, including Microsoft Build, Gartner and Adobe Summit, with 733 total cards claimed
+    - Deployed at eight conferences (Microsoft Build, Gartner, Adobe Summit, eTail)
+    - 733 total cards claimed
 - Launched the Algolia Discord from 0 to 2,000+ developers in a year
 - Host Algolia DevCon, the annual developer conference, for five years, plus quarterly livestreams of 200-500 attendees
 - Run live coding sessions, hackathons (with dev.to, Code & Coffee and Hackernoon) and the Quick Start video embedded in the getting-started docs
