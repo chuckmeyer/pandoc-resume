@@ -31,17 +31,12 @@ Developer Relations leader for small, embedded teams. At each company I look for
 **Senior Manager, Developer Relations** | Algolia | *August 2025 to present*  
 **Lead Developer Advocate** | Algolia | *August 2021 to August 2025*
 
-- Lead the docs and developer advocacy teams (up to five direct reports: advocates, technical writers, developer marketers) for Algolia's API-first search platform
-- Led the Algolia documentation migration from a homegrown platform to Mintlify with zero downtime
-- Launched the Algolia Discord from 0 to 2,000+ active developers in one year
-- Host Algolia DevCon, the annual developer conference, for five consecutive years (2026 edition on October 1), plus quarterly developer livestreams with 200-500 concurrent attendees
-- Built a reusable agentic demo platform, [TCG Search](https://alg.li/tcg-search), and deployed it at eight conferences in six months, including Microsoft Build, Gartner, Adobe Summit, Shoptalk and eTail, each in a week or less, engaging booth visitors with 733 trading cards claimed
-- Published agent-focused engineering content: "We rewrote the Algolia CLI for AI agents" (a top-five Algolia engineering blog post for February to August 2026) and "Chat, meet the Searchbox"
-- Host live coding sessions with partners, and sponsored and judged hackathons alongside dev.to, Code & Coffee and Hackernoon
-- Produced the Quick Start video embedded in the getting-started docs (more first-month views than any Algolia engineering blog post that half)
-- Claimed Algolia's library on Context7 and moved llms.txt to its canonical location so AI tools can read the docs
-- Editor and coach for internal and external technical content, giving pre-publication feedback on blogs, tutorials and speaker sessions
-- Spoke to Algolia's Aspiring Managers Program on moving from IC to manager
+- Lead the docs and developer advocacy teams (up to five direct reports) for Algolia's API-first search platform
+- Led the documentation migration from a homegrown platform to Mintlify with zero downtime, then made the docs readable by agents with llms.txt and Algolia's library on Context7
+- Wrote the engineering post showing the rebuilt Algolia CLI is agent-ready, mapping its schema introspection, structured output, dry-run validation and scoped auth to published agent-first CLI design principles (a top-five Algolia engineering blog post for February to August 2026)
+- Built TCG Search, a reusable agentic demo platform, and stood it up at eight conferences, including Microsoft Build, Gartner and Adobe Summit, each in a week or less, with 733 trading cards claimed by booth visitors
+- Launched the Algolia Discord from 0 to 2,000+ developers in a year; host Algolia DevCon, the annual developer conference, for five years, plus quarterly livestreams of 200-500 attendees
+- Run live coding sessions, hackathons (with dev.to, Code & Coffee and Hackernoon) and the Quick Start video embedded in the getting-started docs
 
 **Senior Engineer, Developer Relations and Integrations** | Bold Penguin | *March 2019 to August 2021*
 
