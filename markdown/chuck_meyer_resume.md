@@ -1,134 +1,95 @@
-# 
-## CHARLES (CHUCK) MEYER
+# CHUCK MEYER
 
-📧 chuckmeyer@gmail.com | 📱 +1(347) 419-0836 | 📍 Columbus, OH  
-🔗 GitHub: chuckmeyer | 💼 LinkedIn: linkedin.com/in/chuckm
+::: location
+Columbus, OH
+:::
 
----
+:::: contact
+::: left
+chuckmeyer@gmail.com  
++1 (347) 419-0836
+:::
 
-### PROFESSIONAL SUMMARY
+::: right
+[github.com/chuckmeyer](https://github.com/chuckmeyer)  
+[linkedin.com/in/chuckm](https://linkedin.com/in/chuckm)
+:::
+::::
 
-Developer Relations leader with experience building and scaling developer communities from the ground up. Proven track record launching community platforms (2,000+ member Discord), migrating technical documentation, and establishing developer advocacy programs that drive adoption of API-first platforms. Deep security expertise working with CISOs and enterprise security teams on cloud infrastructure and compliance frameworks.
+## SUMMARY
 
-### CORE COMPETENCIES
+Player-coach Developer Relations leader for small, embedded teams. At each company I look for the biggest gap between the product and the developers using it, then build what closes it. That's cfn-lint, a CloudFormation linter now downloaded 11M+ times a month; a partner integration portal that cut onboarding calls from about 90 to 30 minutes; and, at Algolia, tooling and docs that work for agents as well as people. Then I prove it in the open, working alongside the community through live coding, hackathons and demos.
 
-**Developer Community Building** - **Technical Documentation** - **API Integration & Support**  
-**JavaScript/React/Next.js** - **Python** - **Go** - **AWS Services & Security**  
-**DevOps/CI/CD** - **Developer Advocacy** - **Technical Writing** - **Public Speaking**  
-**AI/ML Integration** (MCP, Agentic Workflows) - **Security Architecture** - **Compliance Frameworks**
+## CORE COMPETENCIES
 
----
+**AI Agents** (MCP, Tool Use, Evals, multi-model; Algolia Agent Studio) · **Claude Code**  
+**Developer Community** · **Documentation** · **Technical Content** · **Public Speaking**  
+**JavaScript/React** · **Python** · **Go** · **AWS**
 
-### TECHNICAL CONTENT
+## EXPERIENCE
+
+**Senior Manager, Developer Relations** | Algolia | *August 2025 to present*  
+**Lead Developer Advocate** | Algolia | *August 2021 to August 2025*
+
+- Player-coach for the docs and developer advocacy teams (up to five reports) under Algolia's Growth team: weekly 1:1s, content reviews and coaching, quarterly planning and reporting, and the annual review cycle, building alongside the team on docs, agent tooling and demos
+- Led the documentation migration from a homegrown platform to Mintlify with zero downtime, then made the docs readable by agents with llms.txt and Algolia's library on Context7
+- Wrote the post mapping the rebuilt Algolia CLI to agent-first design principles, a top-five Algolia engineering post for February to August 2026
+- Built the [Agent Studio CLI](https://github.com/algolia-samples/algolia-agent-cli), a tool for creating, snapshotting, updating and publishing Algolia agents from version-controlled config
+- Built [TCG Search](https://alg.li/tcg-search), a Pokémon-card vending machine booth demo where a multi-modal agent answers from the same Algolia index as site search, showing why embedded agents need fast retrieval
+    - Deployed at eight conferences (Microsoft Build, Gartner, Adobe Summit, eTail)
+    - 733 total cards claimed
+- Launched the Algolia Discord from 0 to 2,000+ developers in a year
+- Host Algolia DevCon, the annual developer conference, for five years, plus quarterly livestreams of 200-500 attendees
+- Ran live coding sessions and hackathons (with dev.to, Code & Coffee and Hackernoon)
+- Produced Quick Start videos for multiple use cases in the Algolia documentation
+
+**Senior Engineer, Developer Relations and Integrations** | Bold Penguin | *March 2019 to August 2021*
+
+- Took partner documentation from nothing (a few snippets emailed to partners) to a published reference for the Exchange API, generated from an OpenAPI spec
+- Built the code samples, integration guides and Developers Portal for partners from single agencies to large enterprises
+- Cut the typical Exchange onboarding call from about 90 to 30 minutes
+- Advocated for partner-requested API enhancements with product teams, improving usability
+
+**Senior Developer Advocate, AWS CloudFormation** | Amazon Web Services | *August 2017 to March 2019*
+
+- Reported to the service director and represented the developer community in service team planning, prioritizing service support
+- One of the two founding developers of [cfn-lint](https://github.com/aws-cloudformation/cfn-lint), the open source CloudFormation template linter now at 2,600+ GitHub stars and 11M+ monthly PyPI downloads; commissioned its logo and launch stickers
+- Published best-practices content on the AWS management tools blog, including a guide to pre-commit validation with cfn-lint, and engaged enterprise customers at meetups and conferences
+
+**Security Solution Architect** | Amazon Web Services | *April 2016 to August 2017*
+
+- Advised CISOs and security teams across North America on cloud security posture and PCI, HIPAA and SOC compliance, and created AWS security labs for bootcamps and summits
+
+**Senior Professional Services Consultant** | Amazon Web Services | *July 2013 to April 2016*
+
+- Migrated large enterprises to AWS through secure, repeatable CI/CD, including PCI-compliant infrastructure and IAM governance pipelines
+
+## SELECTED PROJECTS
+
+- [**Pokémon TCG Vending Machine Search**](https://github.com/algolia-samples/algolia-tcg-search): React/InstantSearch app with an Agent Studio chat agent and evals, a card scanner, and Vercel and Supabase APIs
+- [**Agent Studio CLI**](https://github.com/algolia-samples/algolia-agent-cli): command-line tool for creating and publishing Agent Studio agents, with `--json` output
+- [**Video Transcription Search**](https://github.com/algolia-samples/avsearch): full-stack demo of video content indexing with real-time search insights
+- [**Hello MCP**](https://github.com/chuckmeyer/hello-mcp): minimal MCP server over Streamable HTTP, with a companion tutorial
+
+## WRITING AND SPEAKING
 
 **Writing**
 
-- [Customizing Algolia React components with Tailwind classes](https://www.algolia.com/blog/engineering/customizing-algolia-react-components-with-tailwind-classes/) - Algolia Engineering Blog
-- [Feature Spotlight: Trends Models in Recommend](https://www.algolia.com/blog/engineering/feature-spotlight-trends-models-in-recommend/) - Algolia Engineering Blog  
-- [Git pre-commit validation of AWS CloudFormation templates](https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/) - AWS Management Tools Blog
+- [We rewrote the Algolia CLI for AI agents](https://www.algolia.com/blog/engineering/we-rewrote-the-algolia-cli-for-ai-agents) (2026)
+- [Chat, meet the Searchbox](https://www.algolia.com/blog/engineering/chat-meet-the-searchbox) (2026)
+- [Building a JavaScript "Hello, World" MCP server](https://dev.to/chuckm/building-a-javascript-helloworld-mcp-server-in-2026-2lbc) (2026, my best-performing dev.to post since 2022)
+- [Git pre-commit validation of CloudFormation templates](https://aws.amazon.com/blogs/mt/git-pre-commit-validation-of-aws-cloudformation-templates-with-cfn-lint/) (AWS, 2019)
 
-**Speaking & Presentations**
+**Speaking**
 
-- **AWS re:Invent 2018** - [Deployment Scenarios with AWS CloudFormation](https://www.youtube.com/watch?v=X31kA1ANBVw)
-- **Search Relevance Panel** - [Finding out what's best](https://www.youtube.com/watch?v=B2TuVyl_GO4) with industry experts
-- **Lightning Talk** - [Agentic query understanding using search MPCs](https://www.youtube.com/watch?v=ogF4NnrrJwE&t=3006s)
+- [DevRelCon 2026, Blog While the Context is Fresh](https://www.youtube.com/watch?v=sGjrVZcRkOg&list=PLcKOCtTONOAY&index=17)
+- [Haystack US 2025, Agentic query understanding using search MCPs](https://www.youtube.com/watch?v=ogF4NnrrJwE&t=3006s)
+- [AWS re:Invent 2018, Deployment Scenarios with AWS CloudFormation](https://www.youtube.com/watch?v=X31kA1ANBVw) (11,000+ views)
+- [Live coding: Adding search insights to InstantSearch applications](https://www.youtube.com/watch?v=AXkWMaPceoE&list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&index=17) (2,000+ views)
+- [The WebDev Challenge, Future of AI-native UX](https://codetv.dev/series/web-dev-challenge/s2/e6-future-of-ai-native-ux)
 
-**Community Engagement**
+## EDUCATION
 
-- **Live Coding Series** - [Adding search insights to InstantSearch applications](https://www.youtube.com/watch?v=AXkWMaPceoE&list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&index=17)
-- **Fireside Chat** - [Lessons learned in Algolia-Hyvä integration on Magento 2](https://www.youtube.com/watch?v=1_kPZ-zm88Y&list=PLuHdbqhRgWHLHV1cKWBXb2B6hNx9Ox5TI&index=4)
-- Sponsored Content - [The WebDev Challenge](https://codetv.dev/series/web-dev-challenge/s2/e6-future-of-ai-native-ux)
- 
----
-
-### RECENT PROJECTS
-
-**Video Transcription Search Application** - [GitHub: algolia-samples/avsearch](https://github.com/algolia-samples/avsearch)  
-Full-stack demo showcasing advanced search capabilities with video content indexing and real-time search insights.
-
-**AI-Powered Developer Workflows** - Implementing MCP (Model Context Protocol) and agentic workflows using n8n for automated developer support and community engagement.
-
----
-
-### PROFESSIONAL EXPERIENCE
-
-**Senior Manager, Developer Relations** | Algolia
-- *August 2025 to present*
-
-**Lead Developer Advocate** | Algolia
-- *August 2021 to August 2025*
-
-Leading a cross-functional team of developer advocates, technical writers, and developer marketers supporting Algolia's API-first search platform.
-
-**Key Achievements:**
-
-- **Launched Algolia Discord Server** from 0 to 2,000+ active developers in one year, creating primary community engagement channel
-- **Managing documentation migration** to Mintlify platform, improving developer onboarding experience
-- **Organize and host quarterly Developer Livestream** with 200-500 concurrent attendance, driving product adoption and community growth
-- **Host live coding sessions** with partners, creating product awareness by cross-pollinating user communites
-
-**Responsibilities:**
-
-- Built demo applications showcasing platform capabilities, including video transcription search solutions
-- Managed developer advocacy team and coordinated with product teams on new feature awareness
-- Created technical content strategy spanning blogs, video tutorials, and conference presentations
-
----
-
-**Senior Engineer, Developer Relations and Integrations** | Bold Penguin
-- *March 2019 to August 2021*
-
-Accelerated partner integrations with Bold Penguin's insurtech products, supporting developers from individual agencies to large enterprise teams.
-
-**Key Achievements:**
-
-- **Built comprehensive Developers Portal** streamlining partner onboarding and reducing integration complexity
-- **Maintained product documentation** serving integration partners across agency and enterprise segments
-- **Advocated for partner-requested enhancements** with product teams, improving API usability
-
----
-
-**Senior Developer Advocate, AWS CloudFormation** | Amazon Web Services
-- *August 2017 to March 2019*
-
-Served as liaison between AWS CloudFormation service team and global developer community, reporting directly to service director.
-
-**Key Achievements:**
-
-- **Represented developer community** in service team planning sessions, influencing product roadmap decisions
-- **Maintained open source repositories** with active contributor community
-- **Published best practices content** on AWS management tools blog with broad developer reach
-- **Engaged enterprise customers** at meetups and conferences on infrastructure as code adoption
-
----
-
-**Security Solution Architect** | Amazon Web Services
-- *April 2016 to August 2017*
-
-Consulted with CISOs and security practitioners across North America on improving IT security posture using AWS cloud services.
-
-**Key Achievements:**
-
-- **Reviewed customer cloud network topologies** for security best practices and compliance requirements
-- **Created AWS security labs** for bootcamps, summits, and loft events, training security professionals
-- **Advised on security frameworks** including PCI, HIPAA, and SOC compliance in cloud environments
-
----
-
-**Senior Professional Services Consultant** | Amazon Web Services
-- *July 2013 to April 2016*
-
-Helped large enterprises migrate to AWS and integrate Amazon web services with existing on-premises systems, specializing in secure, repeatable deployments.
-
-**Key Projects:**
-
-- **PCI-compliant infrastructure** using Elastic Beanstalk with Packer, Puppet, and CloudFormation
-- **CI/CD pipeline for IAM governance** using CodeCommit, CodePipeline, Ansible, and CloudFormation for regulatory compliance
-
----
-
-### EDUCATION
-
-**Bachelor of Science** - Mathematics and Computer Science  
-**Bachelor of Arts** - Literature and Writing (Cum Laude)  
-*Northern Kentucky University* | 1997
+**Bachelor of Science**, Mathematics and Computer Science (Cum Laude)  
+**Bachelor of Arts**, Literature and Writing (Cum Laude)  
+Northern Kentucky University

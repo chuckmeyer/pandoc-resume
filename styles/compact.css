@@ -1,0 +1,52 @@
+<style type="text/css">
+/* Compact two-page variant of chmduquesne.css, tuned for printing to PDF. */
+@font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-Regular.ttf"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-Italic.ttf"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-Bold.ttf"); font-weight: 700; font-style: normal; }
+@font-face { font-family: "Geist"; src: url("../styles/fonts/Geist-BoldItalic.ttf"); font-weight: 700; font-style: italic; }
+@font-face { font-family: "Geist Mono"; src: url("../styles/fonts/GeistMono-Regular.ttf"); font-weight: 400; font-style: normal; }
+@page { size: Letter; margin: 0.45in 0.55in; }
+
+body {
+    font-family: "Geist", "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.4;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+h1 {
+    font-size: 24pt;
+    color: #757575;
+    text-align: center;
+    margin: 0 0 4pt 0;
+}
+header#title-block-header { display: none; }
+.location { text-align: center; margin: 0 0 3pt 0; }
+.contact { display: flex; justify-content: space-between; margin: 0 0 4pt 0; }
+.contact p { margin: 0; }
+.contact .left { word-spacing: -0.1em; }
+.contact .right { text-align: right; }
+
+h2 {
+    color: #397249;
+    font-size: 12pt;
+    margin: 12pt 0 5pt 0;
+    padding-bottom: 1pt;
+    border-bottom: 1px solid #9CB770;
+}
+h2:before { content: none; }
+
+p { margin: 0 0 4pt 0; }
+ul { margin: 2pt 0 5pt 0; padding-left: 14pt; }
+li { margin: 0 0 2.5pt 0; }
+
+a { text-decoration: none; color: #397249; }
+
+h2, li, p { break-inside: avoid; }
+h2 { break-after: avoid; }
+em { font-family: "Geist Mono", monospace; font-style: normal; font-size: 9pt; }
+h2#selected-projects + ul > li > a, h2#selected-projects + ul > li > a strong { font-family: "Geist Mono", monospace; font-weight: 400; font-size: 9.5pt; }
+</style>
