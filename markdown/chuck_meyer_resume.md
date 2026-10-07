@@ -40,7 +40,7 @@ Developer Relations leader for small, embedded teams. At each company I look for
     - 733 total cards claimed
 - Launched the Algolia Discord from 0 to 2,000+ developers in a year
 - Host Algolia DevCon, the annual developer conference, for five years, plus quarterly livestreams of 200-500 attendees
-- Run live coding sessions and hackathons (with dev.to, Code & Coffee and Hackernoon)
+- Ran live coding sessions and hackathons (with dev.to, Code & Coffee and Hackernoon)
 - Produced developer videos, including the Quick Start video embedded in the getting-started docs
 
 **Senior Engineer, Developer Relations and Integrations** | Bold Penguin | *March 2019 to August 2021*
