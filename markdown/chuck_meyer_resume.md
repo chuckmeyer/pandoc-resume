@@ -18,7 +18,7 @@ chuckmeyer@gmail.com
 
 ## SUMMARY
 
-Developer Relations leader who builds and scales developer communities for API-first platforms: a 2,000+ member Discord, a zero-downtime docs migration, and five years hosting Algolia DevCon. Currently focused on developer experience for AI agents, building conversational search with MCP and tool-calling agents and writing about agent-ready developer tooling. Deep security background from advising CISOs on cloud infrastructure and compliance.
+Developer Relations leader for small, embedded teams. At each company I look for the biggest gap between the product and the developers using it, then build what closes it: cfn-lint, a CloudFormation linter now downloaded 11M+ times a month; a partner integration portal; and, at Algolia, tooling and docs that work for agents as well as people. Then I work alongside the community, through live coding, hackathons and demos, to show it works.
 
 ## CORE COMPETENCIES
 
@@ -35,9 +35,9 @@ Developer Relations leader who builds and scales developer communities for API-f
 - Led the Algolia documentation migration from a homegrown platform to Mintlify with zero downtime
 - Launched the Algolia Discord from 0 to 2,000+ active developers in one year
 - Host Algolia DevCon, the annual developer conference, for five consecutive years (2026 edition on October 1), plus quarterly developer livestreams with 200-500 concurrent attendees
-- Built a reusable agentic demo platform, [TCG Search](https://alg.li/tcg-search), and deployed it at eight conferences in six months, including Microsoft Build, Gartner, Adobe Summit, Shoptalk and eTail, each in a week or less
+- Built a reusable agentic demo platform, [TCG Search](https://alg.li/tcg-search), and deployed it at eight conferences in six months, including Microsoft Build, Gartner, Adobe Summit, Shoptalk and eTail, each in a week or less, engaging booth visitors with 733 trading cards claimed
 - Published agent-focused engineering content: "We rewrote the Algolia CLI for AI agents" (a top-five Algolia engineering blog post for February to August 2026) and "Chat, meet the Searchbox"
-- Host live coding sessions with partners, cross-pollinating user communities, and built demo applications such as a video transcription search (avsearch)
+- Host live coding sessions with partners, and sponsored and judged hackathons alongside dev.to, Code & Coffee and Hackernoon
 - Produced the Quick Start video embedded in the getting-started docs (more first-month views than any Algolia engineering blog post that half)
 - Claimed Algolia's library on Context7 and moved llms.txt to its canonical location so AI tools can read the docs
 - Editor and coach for internal and external technical content, giving pre-publication feedback on blogs, tutorials and speaker sessions
@@ -52,7 +52,7 @@ Developer Relations leader who builds and scales developer communities for API-f
 **Senior Developer Advocate, AWS CloudFormation** | Amazon Web Services | *August 2017 to March 2019*
 
 - Reported to the service director and represented the developer community in service team planning, influencing the roadmap
-- One of the two founding developers of [cfn-lint](https://github.com/aws-cloudformation/cfn-lint), the open source CloudFormation template linter (2,600+ GitHub stars), including commissioning its logo and launch stickers
+- One of the two founding developers of [cfn-lint](https://github.com/aws-cloudformation/cfn-lint), the open source CloudFormation template linter (2,600+ GitHub stars, 11M+ monthly PyPI downloads today), including commissioning its logo and launch stickers
 - Maintained CloudFormation's other open source repositories with an active contributor community
 - Published best-practices content on the AWS management tools blog, including a guide to pre-commit validation with cfn-lint, and engaged enterprise customers at meetups and conferences on infrastructure as code
 
